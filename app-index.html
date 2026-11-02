@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document review · Layout/review</title>
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/"><span class="brand-mark">▦</span>Layout<span class="light">/review</span></a><span class="local-pill"><span></span> Local workspace</span></header>
+  <main class="main">
+    <div class="intro"><p class="eyebrow">DOCUMENT ANALYSIS</p><h1>Understand your document.</h1><p>Upload a document image to inspect its layout, read OCR text, and see a RoBERTa document type result.</p></div>
+    <div class="grid">
+      <section class="upload-card" aria-labelledby="upload-title"><div class="card-top"><span class="step-number">01</span><div><h2 id="upload-title">Upload an image</h2><p>JPEG or PNG · up to 20 MB</p></div></div>
+        <input id="file-input" class="visually-hidden" type="file" accept="image/jpeg,image/png">
+        <div id="dropzone" class="dropzone" role="button" tabindex="0" aria-label="Choose an image to upload"><div class="upload-icon">⇧</div><strong>Drop your document here</strong><span>or <span class="choose">browse files</span></span></div>
+        <div id="selection" class="selection" hidden><img id="thumbnail" alt="Selected document preview"><div><strong id="file-name"></strong><span id="file-size"></span></div><button id="remove-file" type="button" aria-label="Remove selected file">×</button></div>
+        <button id="analyze" class="primary" type="button" disabled>Analyze document <span aria-hidden="true">→</span></button>
+        <p class="privacy">Processing happens on this computer. The document is not sent to an external inference service.</p>
+      </section>
+      <section class="progress-card" aria-labelledby="progress-title"><div class="card-top"><span class="step-number">02</span><div><h2 id="progress-title">Review the result</h2><p id="progress-summary">Your analysis will appear here.</p></div></div>
+        <ol class="steps"><li data-step="layout"><span class="step-dot"></span><div><strong>Detect layout</strong><small>Tables, cells, text regions</small></div></li><li data-step="extract"><span class="step-dot"></span><div><strong>Extract text</strong><small>Docling and RapidOCR</small></div></li><li data-step="classify"><span class="step-dot"></span><div><strong>Classify document</strong><small>Local DistilRoBERTa model</small></div></li><li data-step="review"><span class="step-dot"></span><div><strong>Open review</strong><small>Inspect every overlay and source</small></div></li></ol>
+        <div id="status" class="status" role="status">Choose an image to get started.</div><a id="review-link" class="review-link" hidden>Open document review <span>↗</span></a>
+      </section>
+    </div>
+    <div class="sample"><div><span class="sample-icon">▤</span><div><strong>Want to explore first?</strong><p>Open the policy image already processed in this workspace.</p></div></div><a href="/sample">View sample review ↗</a></div>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

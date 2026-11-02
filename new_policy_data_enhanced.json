@@ -1,0 +1,5138 @@
+{
+  "schema": "pdf-layout-builder/docling-extraction/v1",
+  "extraction": {
+    "engine": "docling",
+    "version": "2.145.0",
+    "status": "success",
+    "errors": [],
+    "force_full_page_ocr": false,
+    "complete_conversion": true
+  },
+  "audit": {
+    "source_page_count": 1,
+    "docling_page_count": 1,
+    "page_count_matches": true,
+    "native_pdf_word_count": 0
+  },
+  "document": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "images",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 9008311719731155187,
+      "filename": "images.jpeg"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/pictures/0"
+        },
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/groups/0"
+        },
+        {
+          "$ref": "#/groups/1"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [
+      {
+        "self_ref": "#/groups/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/2"
+          },
+          {
+            "$ref": "#/texts/3"
+          },
+          {
+            "$ref": "#/texts/4"
+          },
+          {
+            "$ref": "#/texts/5"
+          },
+          {
+            "$ref": "#/texts/6"
+          },
+          {
+            "$ref": "#/texts/7"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "key_value_area"
+      },
+      {
+        "self_ref": "#/groups/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/8"
+          },
+          {
+            "$ref": "#/texts/9"
+          },
+          {
+            "$ref": "#/texts/10"
+          },
+          {
+            "$ref": "#/texts/11"
+          },
+          {
+            "$ref": "#/texts/12"
+          },
+          {
+            "$ref": "#/texts/13"
+          },
+          {
+            "$ref": "#/texts/14"
+          },
+          {
+            "$ref": "#/texts/15"
+          },
+          {
+            "$ref": "#/texts/16"
+          },
+          {
+            "$ref": "#/texts/17"
+          },
+          {
+            "$ref": "#/texts/18"
+          },
+          {
+            "$ref": "#/texts/19"
+          },
+          {
+            "$ref": "#/texts/20"
+          },
+          {
+            "$ref": "#/texts/21"
+          },
+          {
+            "$ref": "#/texts/22"
+          },
+          {
+            "$ref": "#/texts/23"
+          },
+          {
+            "$ref": "#/texts/24"
+          },
+          {
+            "$ref": "#/texts/25"
+          },
+          {
+            "$ref": "#/texts/26"
+          },
+          {
+            "$ref": "#/texts/27"
+          },
+          {
+            "$ref": "#/texts/28"
+          },
+          {
+            "$ref": "#/texts/29"
+          },
+          {
+            "$ref": "#/texts/30"
+          },
+          {
+            "$ref": "#/texts/31"
+          },
+          {
+            "$ref": "#/texts/32"
+          },
+          {
+            "$ref": "#/texts/33"
+          },
+          {
+            "$ref": "#/texts/34"
+          },
+          {
+            "$ref": "#/texts/35"
+          },
+          {
+            "$ref": "#/texts/36"
+          },
+          {
+            "$ref": "#/texts/37"
+          },
+          {
+            "$ref": "#/texts/38"
+          },
+          {
+            "$ref": "#/texts/39"
+          },
+          {
+            "$ref": "#/texts/40"
+          },
+          {
+            "$ref": "#/texts/41"
+          },
+          {
+            "$ref": "#/texts/42"
+          },
+          {
+            "$ref": "#/texts/43"
+          },
+          {
+            "$ref": "#/texts/44"
+          },
+          {
+            "$ref": "#/texts/45"
+          },
+          {
+            "$ref": "#/pictures/1"
+          },
+          {
+            "$ref": "#/texts/46"
+          },
+          {
+            "$ref": "#/texts/47"
+          },
+          {
+            "$ref": "#/texts/48"
+          },
+          {
+            "$ref": "#/texts/49"
+          },
+          {
+            "$ref": "#/texts/50"
+          },
+          {
+            "$ref": "#/texts/51"
+          },
+          {
+            "$ref": "#/texts/52"
+          },
+          {
+            "$ref": "#/texts/53"
+          },
+          {
+            "$ref": "#/texts/54"
+          },
+          {
+            "$ref": "#/texts/55"
+          },
+          {
+            "$ref": "#/texts/56"
+          },
+          {
+            "$ref": "#/texts/57"
+          },
+          {
+            "$ref": "#/texts/58"
+          },
+          {
+            "$ref": "#/texts/59"
+          },
+          {
+            "$ref": "#/texts/60"
+          },
+          {
+            "$ref": "#/texts/61"
+          },
+          {
+            "$ref": "#/texts/62"
+          },
+          {
+            "$ref": "#/texts/63"
+          },
+          {
+            "$ref": "#/texts/64"
+          },
+          {
+            "$ref": "#/texts/65"
+          },
+          {
+            "$ref": "#/texts/66"
+          },
+          {
+            "$ref": "#/texts/67"
+          },
+          {
+            "$ref": "#/texts/68"
+          },
+          {
+            "$ref": "#/texts/69"
+          },
+          {
+            "$ref": "#/texts/70"
+          },
+          {
+            "$ref": "#/texts/71"
+          },
+          {
+            "$ref": "#/texts/72"
+          },
+          {
+            "$ref": "#/pictures/2"
+          },
+          {
+            "$ref": "#/texts/73"
+          },
+          {
+            "$ref": "#/texts/74"
+          },
+          {
+            "$ref": "#/texts/75"
+          },
+          {
+            "$ref": "#/texts/76"
+          },
+          {
+            "$ref": "#/texts/77"
+          },
+          {
+            "$ref": "#/texts/78"
+          },
+          {
+            "$ref": "#/texts/79"
+          },
+          {
+            "$ref": "#/texts/80"
+          },
+          {
+            "$ref": "#/texts/81"
+          },
+          {
+            "$ref": "#/texts/82"
+          },
+          {
+            "$ref": "#/texts/83"
+          },
+          {
+            "$ref": "#/texts/84"
+          },
+          {
+            "$ref": "#/texts/85"
+          },
+          {
+            "$ref": "#/texts/86"
+          },
+          {
+            "$ref": "#/texts/87"
+          },
+          {
+            "$ref": "#/texts/88"
+          },
+          {
+            "$ref": "#/texts/89"
+          },
+          {
+            "$ref": "#/texts/90"
+          },
+          {
+            "$ref": "#/pictures/3"
+          },
+          {
+            "$ref": "#/texts/91"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "form_area"
+      }
+    ],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 90.0,
+              "t": 503.6666666666667,
+              "r": 245.66666666666666,
+              "b": 492.6666666666667,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              38
+            ]
+          }
+        ],
+        "orig": "The Oriental Insurance Company Limited",
+        "text": "The Oriental Insurance Company Limited",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.0,
+              "t": 471.3333333333333,
+              "r": 256.0,
+              "b": 449.6666666666667,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              79
+            ]
+          }
+        ],
+        "orig": "MOTORINSURANCE CERTIFICATE CUM POLICY SCHEDULE PRIVATECAR PACKAGE POLICY-ZONE A",
+        "text": "MOTORINSURANCE CERTIFICATE CUM POLICY SCHEDULE PRIVATECAR PACKAGE POLICY-ZONE A",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 257.33333333333337,
+              "t": 475.3333333333333,
+              "r": 362.0,
+              "b": 461.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              55
+            ]
+          }
+        ],
+        "orig": "OUR ORENTAL-WY YVS EMERGENEY ROADSIDE ASSITANCE SCHÉEME",
+        "text": "OUR ORENTAL-WY YVS EMERGENEY ROADSIDE ASSITANCE SCHÉEME"
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 258.66666666666663,
+              "t": 456.6666666666667,
+              "r": 285.6666666666667,
+              "b": 448.6666666666667,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              9
+            ]
+          }
+        ],
+        "orig": "Policy No",
+        "text": "Policy No"
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 311.0,
+              "t": 457.0,
+              "r": 346.3333333333333,
+              "b": 449.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              11
+            ]
+          }
+        ],
+        "orig": "21120016158",
+        "text": "21120016158"
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 258.66666666666663,
+              "t": 462.3333333333333,
+              "r": 302.3333333333333,
+              "b": 454.6666666666667,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              14
+            ]
+          }
+        ],
+        "orig": "Sevbership No.",
+        "text": "Sevbership No."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 310.6666666666667,
+              "t": 462.6666666666667,
+              "r": 346.6666666666667,
+              "b": 455.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              12
+            ]
+          }
+        ],
+        "orig": "10633/211200",
+        "text": "10633/211200"
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 258.66666666666663,
+              "t": 449.6666666666667,
+              "r": 368.0,
+              "b": 430.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        ],
+        "orig": "Contact 24x7 HelplineNio.5300 €25 2002 (nSNL ANL Lines) G000 2002 (pmefix state Cipoo ae madeo",
+        "text": "Contact 24x7 HelplineNio.5300 €25 2002 (nSNL ANL Lines) G000 2002 (pmefix state Cipoo ae madeo"
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.333333333333336,
+              "t": 428.6666666666667,
+              "r": 52.0,
+              "b": 419.6666666666667,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              9
+            ]
+          }
+        ],
+        "orig": "Policy Mo",
+        "text": "Policy Mo"
+      },
+      {
+        "self_ref": "#/texts/9",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 80.33333333333333,
+              "t": 428.6666666666667,
+              "r": 137.66666666666669,
+              "b": 420.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              17
+            ]
+          }
+        ],
+        "orig": "21120035201776158",
+        "text": "21120035201776158"
+      },
+      {
+        "self_ref": "#/texts/10",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 194.33333333333334,
+              "t": 428.3333333333333,
+              "r": 234.0,
+              "b": 420.3333333333333,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              14
+            ]
+          }
+        ],
+        "orig": "Pree Pulicy Na",
+        "text": "Pree Pulicy Na"
+      },
+      {
+        "self_ref": "#/texts/11",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.0,
+              "t": 418.0,
+              "r": 62.0,
+              "b": 410.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              15
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 194.33333333333334,
+              "t": 418.0,
+              "r": 231.0,
+              "b": 410.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              16,
+              30
+            ]
+          }
+        ],
+        "orig": "Cover friute No Covtu Nictu Dt",
+        "text": "Cover friute No Covtu Nictu Dt"
+      },
+      {
+        "self_ref": "#/texts/12",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.0,
+              "t": 407.3333333333333,
+              "r": 62.666666666666664,
+              "b": 398.3333333333333,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              14
+            ]
+          }
+        ],
+        "orig": "Insursd'e Code",
+        "text": "Insursd'e Code"
+      },
+      {
+        "self_ref": "#/texts/13",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 80.33333333333333,
+              "t": 408.3333333333333,
+              "r": 108.0,
+              "b": 399.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              8
+            ]
+          }
+        ],
+        "orig": "77833187",
+        "text": "77833187"
+      },
+      {
+        "self_ref": "#/texts/14",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 194.33333333333334,
+              "t": 407.0,
+              "r": 240.0,
+              "b": 399.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              16
+            ]
+          }
+        ],
+        "orig": "Iusua Cice Codie",
+        "text": "Iusua Cice Codie"
+      },
+      {
+        "self_ref": "#/texts/15",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 252.33333333333334,
+              "t": 429.0,
+              "r": 308.6666666666667,
+              "b": 420.3333333333333,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              18
+            ]
+          }
+        ],
+        "orig": "915101004626930100",
+        "text": "915101004626930100"
+      },
+      {
+        "self_ref": "#/texts/16",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 252.0,
+              "t": 408.0,
+              "r": 273.6666666666667,
+              "b": 398.6666666666667,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              6
+            ]
+          }
+        ],
+        "orig": "211200",
+        "text": "211200"
+      },
+      {
+        "self_ref": "#/texts/17",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.0,
+              "t": 398.6666666666667,
+              "r": 64.0,
+              "b": 390.6666666666667,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              13
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 80.66666666666667,
+              "t": 398.3333333333333,
+              "r": 122.66666666666667,
+              "b": 390.6666666666667,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              14,
+              27
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 194.33333333333334,
+              "t": 398.0,
+              "r": 240.66666666666666,
+              "b": 390.3333333333333,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              28,
+              46
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 253.0,
+              "t": 398.3333333333333,
+              "r": 298.3333333333333,
+              "b": 390.3333333333333,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              47,
+              59
+            ]
+          }
+        ],
+        "orig": "rautad'e hamo Suhan Crodake Issue Oftice fieme DORNDW DCLHI",
+        "text": "rautad'e hamo Suhan Crodake Issue Oftice fieme DORNDW DCLHI"
+      },
+      {
+        "self_ref": "#/texts/18",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.0,
+              "t": 384.33333333333337,
+              "r": 47.0,
+              "b": 376.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              7
+            ]
+          }
+        ],
+        "orig": "Address",
+        "text": "Address"
+      },
+      {
+        "self_ref": "#/texts/19",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.666666666666664,
+              "t": 349.0,
+              "r": 62.666666666666664,
+              "b": 341.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              11
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 81.33333333333333,
+              "t": 385.33333333333337,
+              "r": 144.66666666666666,
+              "b": 377.66666666666663,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              12,
+              32
+            ]
+          }
+        ],
+        "orig": "Tel Fm Eral RO02, GAI WATERCREST",
+        "text": "Tel Fm Eral RO02, GAI WATERCREST"
+      },
+      {
+        "self_ref": "#/texts/20",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 81.0,
+              "t": 377.33333333333337,
+              "r": 157.33333333333334,
+              "b": 369.33333333333337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              22
+            ]
+          }
+        ],
+        "orig": "2:11A, JMMBHLLWADIROAD",
+        "text": "2:11A, JMMBHLLWADIROAD"
+      },
+      {
+        "self_ref": "#/texts/21",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 81.0,
+              "t": 368.66666666666663,
+              "r": 149.0,
+              "b": 360.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              20
+            ]
+          }
+        ],
+        "orig": "AMSCCAON (900 MUMBA)",
+        "text": "AMSCCAON (900 MUMBA)"
+      },
+      {
+        "self_ref": "#/texts/22",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 82.33333333333333,
+              "t": 360.0,
+              "r": 144.0,
+              "b": 352.33333333333337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              18
+            ]
+          }
+        ],
+        "orig": "MAHARASHTRA 41104G",
+        "text": "MAHARASHTRA 41104G"
+      },
+      {
+        "self_ref": "#/texts/23",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 81.66666666666667,
+              "t": 349.0,
+              "r": 232.66666666666666,
+              "b": 340.33333333333337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              46
+            ]
+          }
+        ],
+        "orig": "//9404730827wuos ghodxkeägeal com Tel Fax Emal",
+        "text": "//9404730827wuos ghodxkeägeal com Tel Fax Emal"
+      },
+      {
+        "self_ref": "#/texts/24",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.666666666666664,
+              "t": 329.33333333333337,
+              "r": 81.66666666666667,
+              "b": 320.33333333333337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              19
+            ]
+          }
+        ],
+        "orig": "Agent Brcher Cetals",
+        "text": "Agent Brcher Cetals",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/25",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 26.0,
+              "t": 321.33333333333337,
+              "r": 62.0,
+              "b": 312.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              12
+            ]
+          }
+        ],
+        "orig": "Dee Ont Code",
+        "text": "Dee Ont Code"
+      },
+      {
+        "self_ref": "#/texts/26",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 26.0,
+              "t": 311.66666666666663,
+              "r": 62.333333333333336,
+              "b": 302.66666666666663,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              13
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 252.33333333333334,
+              "t": 373.66666666666663,
+              "r": 345.6666666666667,
+              "b": 364.66666666666663,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              14,
+              42
+            ]
+          }
+        ],
+        "orig": "Ageet Btrcket PADAM DINGH ROAD, KAROL BAGH",
+        "text": "Ageet Btrcket PADAM DINGH ROAD, KAROL BAGH"
+      },
+      {
+        "self_ref": "#/texts/27",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 253.0,
+              "t": 384.33333333333337,
+              "r": 361.0,
+              "b": 371.33333333333337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              39
+            ]
+          }
+        ],
+        "orig": "1B/2O, WEA.FIRST FLOORNEAR SHASTRI PARK",
+        "text": "1B/2O, WEA.FIRST FLOORNEAR SHASTRI PARK"
+      },
+      {
+        "self_ref": "#/texts/28",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 252.66666666666666,
+              "t": 365.0,
+              "r": 285.0,
+              "b": 357.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              8
+            ]
+          }
+        ],
+        "orig": "NEW DCLH",
+        "text": "NEW DCLH"
+      },
+      {
+        "self_ref": "#/texts/29",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 252.66666666666666,
+              "t": 356.66666666666663,
+              "r": 320.6666666666667,
+              "b": 348.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              21
+            ]
+          }
+        ],
+        "orig": "NEW DELR DELHE 110005",
+        "text": "NEW DELR DELHE 110005"
+      },
+      {
+        "self_ref": "#/texts/30",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 249.33333333333334,
+              "t": 337.0,
+              "r": 352.3333333333333,
+              "b": 329.33333333333337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              33
+            ]
+          }
+        ],
+        "orig": "mandain.bxiodhuocertarszance.co.n",
+        "text": "mandain.bxiodhuocertarszance.co.n"
+      },
+      {
+        "self_ref": "#/texts/31",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 249.33333333333334,
+              "t": 349.0,
+              "r": 352.6666666666667,
+              "b": 335.33333333333337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              43
+            ]
+          }
+        ],
+        "orig": "011 28250983.28758823.28753268:811 28750644",
+        "text": "011 28250983.28758823.28753268:811 28750644"
+      },
+      {
+        "self_ref": "#/texts/32",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 80.0,
+              "t": 320.66666666666663,
+              "r": 260.33333333333337,
+              "b": 311.66666666666663,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              63
+            ]
+          }
+        ],
+        "orig": "NAao000cosec Polcybarasr insurance Weh Agoregator Prvne Lirsted",
+        "text": "NAao000cosec Polcybarasr insurance Weh Agoregator Prvne Lirsted"
+      },
+      {
+        "self_ref": "#/texts/33",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 80.66666666666667,
+              "t": 311.66666666666663,
+              "r": 167.66666666666666,
+              "b": 304.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              27
+            ]
+          }
+        ],
+        "orig": "8F0000004776 POLICYBAZAAR 1",
+        "text": "8F0000004776 POLICYBAZAAR 1"
+      },
+      {
+        "self_ref": "#/texts/34",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 26.333333333333336,
+              "t": 302.33333333333337,
+              "r": 50.0,
+              "b": 294.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              7
+            ]
+          }
+        ],
+        "orig": "Addross",
+        "text": "Addross"
+      },
+      {
+        "self_ref": "#/texts/35",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 26.0,
+              "t": 289.0,
+              "r": 65.33333333333334,
+              "b": 281.33333333333337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              15
+            ]
+          }
+        ],
+        "orig": "Tel /fax /Emall",
+        "text": "Tel /fax /Emall"
+      },
+      {
+        "self_ref": "#/texts/36",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 80.33333333333333,
+              "t": 290.0,
+              "r": 188.33333333333334,
+              "b": 281.66666666666663,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              25
+            ]
+          }
+        ],
+        "orig": "1820787/rtmopolicykaz.som",
+        "text": "1820787/rtmopolicykaz.som"
+      },
+      {
+        "self_ref": "#/texts/37",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.333333333333336,
+              "t": 276.33333333333337,
+              "r": 72.33333333333334,
+              "b": 268.33333333333337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              19
+            ]
+          }
+        ],
+        "orig": "Period st lesaránce",
+        "text": "Period st lesaránce"
+      },
+      {
+        "self_ref": "#/texts/38",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.333333333333336,
+              "t": 266.66666666666663,
+              "r": 70.0,
+              "b": 259.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              17
+            ]
+          }
+        ],
+        "orig": "Cotection Ns & Dr",
+        "text": "Cotection Ns & Dr"
+      },
+      {
+        "self_ref": "#/texts/39",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.666666666666664,
+              "t": 256.3333333333333,
+              "r": 63.333333333333336,
+              "b": 248.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              13
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 80.33333333333333,
+              "t": 302.66666666666663,
+              "r": 189.66666666666666,
+              "b": 289.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              14,
+              80
+            ]
+          }
+        ],
+        "orig": "Oros Preniurs FLOT 119, SECTOR 44, GURGAON-122001, HARYANA.GURGAONHARYANA.12Z001",
+        "text": "Oros Preniurs FLOT 119, SECTOR 44, GURGAON-122001, HARYANA.GURGAONHARYANA.12Z001"
+      },
+      {
+        "self_ref": "#/texts/40",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 82.33333333333333,
+              "t": 278.0,
+              "r": 226.0,
+              "b": 269.33333333333337,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              48
+            ]
+          }
+        ],
+        "orig": "FROM 00.00 ON 15/00/2017 TO MONCHT OF 17/00/2018",
+        "text": "FROM 00.00 ON 15/00/2017 TO MONCHT OF 17/00/2018"
+      },
+      {
+        "self_ref": "#/texts/41",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 82.33333333333333,
+              "t": 268.33333333333337,
+              "r": 149.66666666666666,
+              "b": 258.3333333333333,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              20
+            ]
+          }
+        ],
+        "orig": "12005019288-04032017",
+        "text": "12005019288-04032017"
+      },
+      {
+        "self_ref": "#/texts/42",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 83.33333333333333,
+              "t": 257.3333333333333,
+              "r": 100.66666666666667,
+              "b": 247.66666666666669,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          }
+        ],
+        "orig": "5.055",
+        "text": "5.055"
+      },
+      {
+        "self_ref": "#/texts/43",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 129.66666666666669,
+              "t": 257.0,
+              "r": 161.33333333333334,
+              "b": 248.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              11
+            ]
+          }
+        ],
+        "orig": "Service Tes",
+        "text": "Service Tes"
+      },
+      {
+        "self_ref": "#/texts/44",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 174.66666666666666,
+              "t": 257.0,
+              "r": 187.66666666666666,
+              "b": 248.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "758",
+        "text": "758"
+      },
+      {
+        "self_ref": "#/texts/45",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 208.33333333333334,
+              "t": 256.6666666666667,
+              "r": 240.66666666666666,
+              "b": 247.66666666666669,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              9
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 282.3333333333333,
+              "t": 256.6666666666667,
+              "r": 298.3333333333333,
+              "b": 248.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              10,
+              15
+            ]
+          }
+        ],
+        "orig": "StamoDuty Total",
+        "text": "StamoDuty Total"
+      },
+      {
+        "self_ref": "#/texts/46",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 310.6666666666667,
+              "t": 256.6666666666667,
+              "r": 327.6666666666667,
+              "b": 248.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          }
+        ],
+        "orig": "1.813",
+        "text": "1.813"
+      },
+      {
+        "self_ref": "#/texts/47",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 23.666666666666664,
+              "t": 247.0,
+              "r": 70.66666666666666,
+              "b": 238.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              17
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 82.66666666666667,
+              "t": 247.33333333333331,
+              "r": 96.0,
+              "b": 238.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              18,
+              21
+            ]
+          }
+        ],
+        "orig": "Oeograptical Arse INO",
+        "text": "Oeograptical Arse INO"
+      },
+      {
+        "self_ref": "#/texts/48",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 190.66666666666666,
+              "t": 246.33333333333331,
+              "r": 229.33333333333334,
+              "b": 238.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              13
+            ]
+          }
+        ],
+        "orig": "Avea Ecsnsion",
+        "text": "Avea Ecsnsion"
+      },
+      {
+        "self_ref": "#/texts/49",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.0,
+              "t": 220.33333333333331,
+              "r": 72.33333333333334,
+              "b": 210.66666666666669,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              18
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 82.66666666666667,
+              "t": 219.33333333333331,
+              "r": 118.66666666666667,
+              "b": 211.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              19,
+              31
+            ]
+          }
+        ],
+        "orig": "Puagiatratian Mark Engine No. A",
+        "text": "Puagiatratian Mark Engine No. A"
+      },
+      {
+        "self_ref": "#/texts/50",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.666666666666664,
+              "t": 213.66666666666669,
+              "r": 47.333333333333336,
+              "b": 205.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              7
+            ]
+          }
+        ],
+        "orig": "& Flece",
+        "text": "& Flece"
+      },
+      {
+        "self_ref": "#/texts/51",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.0,
+              "t": 202.0,
+              "r": 66.0,
+              "b": 191.66666666666669,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              9
+            ]
+          }
+        ],
+        "orig": "M位82 9753",
+        "text": "M位82 9753"
+      },
+      {
+        "self_ref": "#/texts/52",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 82.66666666666667,
+              "t": 200.66666666666669,
+              "r": 106.66666666666667,
+              "b": 192.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              7
+            ]
+          }
+        ],
+        "orig": "0063763",
+        "text": "0063763"
+      },
+      {
+        "self_ref": "#/texts/53",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.0,
+              "t": 192.33333333333331,
+              "r": 60.666666666666664,
+              "b": 184.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              11
+            ]
+          }
+        ],
+        "orig": "Marbai West",
+        "text": "Marbai West"
+      },
+      {
+        "self_ref": "#/texts/54",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.333333333333336,
+              "t": 175.33333333333331,
+              "r": 82.0,
+              "b": 166.66666666666669,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              21
+            ]
+          }
+        ],
+        "orig": "Uimitatena as to use:",
+        "text": "Uimitatena as to use:",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/55",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 28.0,
+              "t": 164.66666666666669,
+              "r": 344.6666666666667,
+              "b": 145.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              236
+            ]
+          }
+        ],
+        "orig": "1 The Paicy covers ose of ihe vebicie loe mty pupose ctbe thuan a) Hie or Rleward bi Carlage of goodo (elher thas sorigles or ersosat cpage)  Orginted radng Pacn moking e Speed lestngfi Relattty TidalsgUse in oonnoction with Motar Frase",
+        "text": "1 The Paicy covers ose of ihe vebicie loe mty pupose ctbe thuan a) Hie or Rleward bi Carlage of goodo (elher thas sorigles or ersosat cpage)  Orginted radng Pacn moking e Speed lestngfi Relattty TidalsgUse in oonnoction with Motar Frase"
+      },
+      {
+        "self_ref": "#/texts/56",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.333333333333336,
+              "t": 142.33333333333331,
+              "r": 43.66666666666667,
+              "b": 134.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          }
+        ],
+        "orig": "Dhuer",
+        "text": "Dhuer"
+      },
+      {
+        "self_ref": "#/texts/57",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 25.0,
+              "t": 134.0,
+              "r": 351.0,
+              "b": 114.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              268
+            ]
+          }
+        ],
+        "orig": "Ans person incuding the insorod. Povided tnat a person doving bolds as etective devivig lcense it ine Se ot tne acoidest and is net a    s           e     p vehidle and thiat such a person siataies the requirertents of Itule 3ct the Ceetral Motor Veticieo Rutes. 15ex.",
+        "text": "Ans person incuding the insorod. Povided tnat a person doving bolds as etective devivig lcense it ine Se ot tne acoidest and is net a    s           e     p vehidle and thiat such a person siataies the requirertents of Itule 3ct the Ceetral Motor Veticieo Rutes. 15ex."
+      },
+      {
+        "self_ref": "#/texts/58",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.333333333333336,
+              "t": 108.66666666666669,
+              "r": 68.66666666666666,
+              "b": 100.66666666666669,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              17
+            ]
+          }
+        ],
+        "orig": "Limit of Liabity:",
+        "text": "Limit of Liabity:"
+      },
+      {
+        "self_ref": "#/texts/59",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.0,
+              "t": 101.0,
+              "r": 235.33333333333334,
+              "b": 92.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              81
+            ]
+          }
+        ],
+        "orig": "Under Sectice -1) in respect of ary one accident: as per MotarVeñictes Ait, r88a.",
+        "text": "Under Sectice -1) in respect of ary one accident: as per MotarVeñictes Ait, r88a."
+      },
+      {
+        "self_ref": "#/texts/60",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.333333333333336,
+              "t": 92.66666666666669,
+              "r": 269.33333333333337,
+              "b": 83.66666666666669,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              94
+            ]
+          }
+        ],
+        "orig": "Under Section s) in reapect of ary one clalin or series of clelm asingcut of cone event is fs.",
+        "text": "Under Section s) in reapect of ary one clalin or series of clelm asingcut of cone event is fs."
+      },
+      {
+        "self_ref": "#/texts/61",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 283.0,
+              "t": 94.0,
+              "r": 304.3333333333333,
+              "b": 84.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              6
+            ]
+          }
+        ],
+        "orig": "T50000",
+        "text": "T50000"
+      },
+      {
+        "self_ref": "#/texts/62",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.333333333333336,
+              "t": 85.33333333333331,
+              "r": 194.66666666666666,
+              "b": 76.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              66
+            ]
+          }
+        ],
+        "orig": "P.A Cever under Section l tor Rlegliatered Ouner Cais Drivev (CSi)",
+        "text": "P.A Cever under Section l tor Rlegliatered Ouner Cais Drivev (CSi)"
+      },
+      {
+        "self_ref": "#/texts/63",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 201.33333333333334,
+              "t": 84.33333333333331,
+              "r": 218.0,
+              "b": 77.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              3
+            ]
+          }
+        ],
+        "orig": "Rs.",
+        "text": "Rs."
+      },
+      {
+        "self_ref": "#/texts/64",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 153.66666666666666,
+              "t": 71.0,
+              "r": 219.33333333333334,
+              "b": 62.666666666666686,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              24
+            ]
+          }
+        ],
+        "orig": "insuved's Declared Value",
+        "text": "insuved's Declared Value"
+      },
+      {
+        "self_ref": "#/texts/65",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 30.0,
+              "t": 62.666666666666686,
+              "r": 72.33333333333334,
+              "b": 53.666666666666686,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              15
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 91.66666666666667,
+              "t": 62.666666666666686,
+              "r": 124.66666666666667,
+              "b": 53.666666666666686,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              16,
+              27
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 135.0,
+              "t": 62.333333333333314,
+              "r": 172.66666666666666,
+              "b": 54.333333333333314,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              28,
+              42
+            ]
+          }
+        ],
+        "orig": "for the Vetscle Fo: Tralere Hon Eleclrical",
+        "text": "for the Vetscle Fo: Tralere Hon Eleclrical"
+      },
+      {
+        "self_ref": "#/texts/66",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 49.333333333333336,
+              "t": 47.0,
+              "r": 73.0,
+              "b": 37.666666666666686,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              8
+            ]
+          }
+        ],
+        "orig": "1.32.072",
+        "text": "1.32.072"
+      },
+      {
+        "self_ref": "#/texts/67",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 191.33333333333334,
+              "t": 62.333333333333314,
+              "r": 225.0,
+              "b": 48.333333333333314,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              21
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 254.66666666666666,
+              "t": 62.333333333333314,
+              "r": 291.3333333333333,
+              "b": 48.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              22,
+              42
+            ]
+          }
+        ],
+        "orig": "Einchical Acceasorica Vahpe of ChiG LPG KR",
+        "text": "Einchical Acceasorica Vahpe of ChiG LPG KR"
+      },
+      {
+        "self_ref": "#/texts/68",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 219.0,
+              "t": 45.666666666666686,
+              "r": 225.66666666666666,
+              "b": 38.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "6",
+        "text": "6"
+      },
+      {
+        "self_ref": "#/texts/69",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 285.0,
+              "t": 45.666666666666686,
+              "r": 292.0,
+              "b": 37.666666666666686,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "0",
+        "text": "0"
+      },
+      {
+        "self_ref": "#/texts/70",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.333333333333336,
+              "t": 24.333333333333314,
+              "r": 41.0,
+              "b": 16.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          },
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 50.0,
+              "t": 25.0,
+              "r": 82.66666666666667,
+              "b": 16.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              6,
+              14
+            ]
+          }
+        ],
+        "orig": "Piace NEW DELH",
+        "text": "Piace NEW DELH"
+      },
+      {
+        "self_ref": "#/texts/71",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.333333333333336,
+              "t": 15.0,
+              "r": 43.0,
+              "b": 6.666666666666686,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          }
+        ],
+        "orig": "Data:",
+        "text": "Data:"
+      },
+      {
+        "self_ref": "#/texts/72",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 50.0,
+              "t": 15.333333333333314,
+              "r": 80.0,
+              "b": 6.333333333333314,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              9
+            ]
+          }
+        ],
+        "orig": "0493/2017",
+        "text": "0493/2017"
+      },
+      {
+        "self_ref": "#/texts/73",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 139.33333333333331,
+              "t": 56.0,
+              "r": 173.0,
+              "b": 48.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              11
+            ]
+          }
+        ],
+        "orig": "Accessorics",
+        "text": "Accessorics"
+      },
+      {
+        "self_ref": "#/texts/74",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 228.33333333333334,
+              "t": 84.66666666666669,
+              "r": 249.0,
+              "b": 76.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              6
+            ]
+          }
+        ],
+        "orig": "200000",
+        "text": "200000"
+      },
+      {
+        "self_ref": "#/texts/75",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 82.66666666666667,
+              "t": 192.33333333333331,
+              "r": 136.0,
+              "b": 184.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              16
+            ]
+          }
+        ],
+        "orig": "MCA11031B0001836",
+        "text": "MCA11031B0001836"
+      },
+      {
+        "self_ref": "#/texts/76",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 82.33333333333333,
+              "t": 186.66666666666669,
+              "r": 99.66666666666667,
+              "b": 178.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              4
+            ]
+          }
+        ],
+        "orig": "7ENZ",
+        "text": "7ENZ"
+      },
+      {
+        "self_ref": "#/texts/77",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "section_header",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 154.33333333333334,
+              "t": 231.33333333333331,
+              "r": 233.0,
+              "b": 222.66666666666669,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              31
+            ]
+          }
+        ],
+        "orig": "Particutara of bnsured Vehicle:",
+        "text": "Particutara of bnsured Vehicle:",
+        "level": 1
+      },
+      {
+        "self_ref": "#/texts/78",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 136.33333333333331,
+              "t": 213.33333333333331,
+              "r": 172.66666666666666,
+              "b": 204.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              10
+            ]
+          }
+        ],
+        "orig": "Make-Model",
+        "text": "Make-Model"
+      },
+      {
+        "self_ref": "#/texts/79",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 136.33333333333331,
+              "t": 200.33333333333331,
+              "r": 187.66666666666666,
+              "b": 186.66666666666669,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              35
+            ]
+          }
+        ],
+        "orig": "PIAT PIAT LineO 1.2 Emcton (Dresel)",
+        "text": "PIAT PIAT LineO 1.2 Emcton (Dresel)"
+      },
+      {
+        "self_ref": "#/texts/80",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 191.66666666666666,
+              "t": 219.33333333333331,
+              "r": 228.66666666666666,
+              "b": 210.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              12
+            ]
+          }
+        ],
+        "orig": "Type Or Dody",
+        "text": "Type Or Dody"
+      },
+      {
+        "self_ref": "#/texts/81",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 196.0,
+              "t": 200.66666666666669,
+              "r": 221.0,
+              "b": 192.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          }
+        ],
+        "orig": "SR00N",
+        "text": "SR00N"
+      },
+      {
+        "self_ref": "#/texts/82",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 259.66666666666663,
+              "t": 219.33333333333331,
+              "r": 277.3333333333333,
+              "b": 211.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          }
+        ],
+        "orig": "Cubio",
+        "text": "Cubio"
+      },
+      {
+        "self_ref": "#/texts/83",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 252.66666666666666,
+              "t": 213.33333333333331,
+              "r": 277.6666666666667,
+              "b": 205.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              8
+            ]
+          }
+        ],
+        "orig": "Capacity",
+        "text": "Capacity"
+      },
+      {
+        "self_ref": "#/texts/84",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 261.66666666666663,
+              "t": 200.66666666666669,
+              "r": 277.0,
+              "b": 192.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              4
+            ]
+          }
+        ],
+        "orig": "1245",
+        "text": "1245"
+      },
+      {
+        "self_ref": "#/texts/85",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 283.3333333333333,
+              "t": 219.0,
+              "r": 349.0,
+              "b": 211.33333333333331,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              23
+            ]
+          }
+        ],
+        "orig": "Year Ot Seating Capauty",
+        "text": "Year Ot Seating Capauty"
+      },
+      {
+        "self_ref": "#/texts/86",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 289.3333333333333,
+              "t": 201.0,
+              "r": 321.0,
+              "b": 192.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              8
+            ]
+          }
+        ],
+        "orig": "2011 4+1",
+        "text": "2011 4+1"
+      },
+      {
+        "self_ref": "#/texts/87",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 194.0,
+              "t": 384.0,
+              "r": 217.0,
+              "b": 374.66666666666663,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              5
+            ]
+          }
+        ],
+        "orig": "Aures",
+        "text": "Aures"
+      },
+      {
+        "self_ref": "#/texts/88",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 238.0,
+              "t": 427.3333333333333,
+              "r": 243.33333333333334,
+              "b": 421.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              1
+            ]
+          }
+        ],
+        "orig": "I",
+        "text": "I"
+      },
+      {
+        "self_ref": "#/texts/89",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 320.3333333333333,
+              "t": 62.666666666666686,
+              "r": 353.3333333333333,
+              "b": 53.666666666666686,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              11
+            ]
+          }
+        ],
+        "orig": "Total Vatae",
+        "text": "Total Vatae"
+      },
+      {
+        "self_ref": "#/texts/90",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 329.3333333333333,
+              "t": 47.333333333333314,
+              "r": 355.0,
+              "b": 37.0,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              7
+            ]
+          }
+        ],
+        "orig": "8.32075",
+        "text": "8.32075"
+      },
+      {
+        "self_ref": "#/texts/91",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 323.6666666666667,
+              "t": 11.0,
+              "r": 354.0,
+              "b": 1.6666666666666288,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              8
+            ]
+          }
+        ],
+        "orig": "Page1a12",
+        "text": "Page1a12"
+      }
+    ],
+    "pictures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 40.84926223754883,
+              "t": 508.1922559738159,
+              "r": 71.7314682006836,
+              "b": 482.2708396911621,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 293.5231628417969,
+              "t": 328.3710479736328,
+              "r": 346.9778747558594,
+              "b": 277.1352081298828,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 152.5480499267578,
+              "t": 23.06622314453125,
+              "r": 240.66818237304688,
+              "b": 6.561279296875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 293.9437561035156,
+              "t": 23.8480224609375,
+              "r": 327.6474609375,
+              "b": 13.1318359375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "annotations": []
+      }
+    ],
+    "tables": [],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 387.0,
+          "height": 516.0
+        },
+        "page_no": 1
+      }
+    }
+  },
+  "native_pdf_text": [],
+  "rapidocr_layers": {
+    "version": "3.10.0",
+    "backend": "torch",
+    "dpi": 200,
+    "pages": [
+      {
+        "page": 1,
+        "width_px": 387,
+        "height_px": 516,
+        "full_page_lines": [
+          {
+            "text": "The Oriental Insurance Company Limited",
+            "confidence": 0.9993,
+            "bbox_pixel": [
+              90.0,
+              12.0,
+              246.0,
+              23.0
+            ]
+          },
+          {
+            "text": "MOTOR INSURANCE CERTIFICATE CUM POLICY SCHEDULE",
+            "confidence": 0.9949,
+            "bbox_pixel": [
+              24.0,
+              43.0,
+              257.0,
+              56.0
+            ]
+          },
+          {
+            "text": "Policy Mo",
+            "confidence": 0.9452,
+            "bbox_pixel": [
+              24.0,
+              87.0,
+              52.0,
+              96.0
+            ]
+          },
+          {
+            "text": "PRIVATE CAR PACKAGE POLICY - ZONE A",
+            "confidence": 0.9655,
+            "bbox_pixel": [
+              25.0,
+              56.0,
+              190.0,
+              67.0
+            ]
+          },
+          {
+            "text": "211200312017m6158",
+            "confidence": 0.9328,
+            "bbox_pixel": [
+              80.0,
+              87.0,
+              138.0,
+              96.0
+            ]
+          },
+          {
+            "text": "Phes Puicy Ne",
+            "confidence": 0.8506,
+            "bbox_pixel": [
+              193.0,
+              85.0,
+              235.0,
+              97.0
+            ]
+          },
+          {
+            "text": "915101004626930100",
+            "confidence": 0.9593,
+            "bbox_pixel": [
+              252.0,
+              86.0,
+              309.0,
+              95.0
+            ]
+          },
+          {
+            "text": "OUR ORENTAL-MY TVS EMERGENCY",
+            "confidence": 0.9546,
+            "bbox_pixel": [
+              258.0,
+              41.0,
+              362.0,
+              49.0
+            ]
+          },
+          {
+            "text": "Membership No.",
+            "confidence": 0.6869,
+            "bbox_pixel": [
+              258.0,
+              52.0,
+              303.0,
+              62.0
+            ]
+          },
+          {
+            "text": "Policy No",
+            "confidence": 0.9306,
+            "bbox_pixel": [
+              259.0,
+              59.0,
+              286.0,
+              68.0
+            ]
+          },
+          {
+            "text": "Contact 24a7 Helplineflo.1800 €25 2002",
+            "confidence": 0.9037,
+            "bbox_pixel": [
+              259.0,
+              66.0,
+              360.0,
+              74.0
+            ]
+          },
+          {
+            "text": "(BSNLMTNL Linea) G000 2002 (prex state",
+            "confidence": 0.8487,
+            "bbox_pixel": [
+              259.0,
+              72.0,
+              368.0,
+              81.0
+            ]
+          },
+          {
+            "text": "capital STD code)",
+            "confidence": 0.9074,
+            "bbox_pixel": [
+              259.0,
+              78.0,
+              307.0,
+              86.0
+            ]
+          },
+          {
+            "text": "ROADSIDE ASSSTANCE SCHEME",
+            "confidence": 0.8977,
+            "bbox_pixel": [
+              266.0,
+              47.0,
+              357.0,
+              55.0
+            ]
+          },
+          {
+            "text": "10633/211200",
+            "confidence": 0.958,
+            "bbox_pixel": [
+              311.0,
+              54.0,
+              348.0,
+              61.0
+            ]
+          },
+          {
+            "text": "211200/1615",
+            "confidence": 0.8822,
+            "bbox_pixel": [
+              311.0,
+              59.0,
+              347.0,
+              67.0
+            ]
+          },
+          {
+            "text": "Cover fiate No",
+            "confidence": 0.8367,
+            "bbox_pixel": [
+              25.0,
+              97.0,
+              63.0,
+              106.0
+            ]
+          },
+          {
+            "text": "Covas Ncte Dt",
+            "confidence": 0.7281,
+            "bbox_pixel": [
+              194.0,
+              97.0,
+              231.0,
+              106.0
+            ]
+          },
+          {
+            "text": "iruutod's hamo",
+            "confidence": 0.6447,
+            "bbox_pixel": [
+              24.0,
+              116.0,
+              65.0,
+              126.0
+            ]
+          },
+          {
+            "text": "Irsursd'e Code",
+            "confidence": 0.8803,
+            "bbox_pixel": [
+              25.0,
+              109.0,
+              63.0,
+              118.0
+            ]
+          },
+          {
+            "text": "77933187",
+            "confidence": 0.9505,
+            "bbox_pixel": [
+              80.0,
+              108.0,
+              108.0,
+              117.0
+            ]
+          },
+          {
+            "text": "Suthan Ghedake",
+            "confidence": 0.7351,
+            "bbox_pixel": [
+              80.0,
+              117.0,
+              123.0,
+              126.0
+            ]
+          },
+          {
+            "text": "Issue Office Codie",
+            "confidence": 0.7812,
+            "bbox_pixel": [
+              193.0,
+              108.0,
+              240.0,
+              118.0
+            ]
+          },
+          {
+            "text": "Issue Otfice fieme",
+            "confidence": 0.8734,
+            "bbox_pixel": [
+              194.0,
+              118.0,
+              240.0,
+              126.0
+            ]
+          },
+          {
+            "text": "211200",
+            "confidence": 0.998,
+            "bbox_pixel": [
+              252.0,
+              107.0,
+              274.0,
+              118.0
+            ]
+          },
+          {
+            "text": "DORNEWDELHI",
+            "confidence": 0.9318,
+            "bbox_pixel": [
+              253.0,
+              117.0,
+              299.0,
+              126.0
+            ]
+          },
+          {
+            "text": "Tel Fms /Emal",
+            "confidence": 0.7798,
+            "bbox_pixel": [
+              24.0,
+              165.0,
+              64.0,
+              175.0
+            ]
+          },
+          {
+            "text": "Address",
+            "confidence": 0.877,
+            "bbox_pixel": [
+              25.0,
+              131.0,
+              47.0,
+              140.0
+            ]
+          },
+          {
+            "text": "De Oft.Gode",
+            "confidence": 0.8549,
+            "bbox_pixel": [
+              25.0,
+              194.0,
+              63.0,
+              204.0
+            ]
+          },
+          {
+            "text": "Ageet reker",
+            "confidence": 0.766,
+            "bbox_pixel": [
+              25.0,
+              203.0,
+              63.0,
+              214.0
+            ]
+          },
+          {
+            "text": "Apens troker Oetalis",
+            "confidence": 0.8163,
+            "bbox_pixel": [
+              26.0,
+              186.0,
+              81.0,
+              195.0
+            ]
+          },
+          {
+            "text": "Addrens",
+            "confidence": 0.9177,
+            "bbox_pixel": [
+              26.0,
+              213.0,
+              50.0,
+              222.0
+            ]
+          },
+          {
+            "text": "Tel /fax /Email",
+            "confidence": 0.7941,
+            "bbox_pixel": [
+              26.0,
+              226.0,
+              66.0,
+              235.0
+            ]
+          },
+          {
+            "text": "NAa0c00cose Peleyharnar insurance Weh Agpregator Private Limsited",
+            "confidence": 0.7867,
+            "bbox_pixel": [
+              78.0,
+              194.0,
+              261.0,
+              205.0
+            ]
+          },
+          {
+            "text": "8F0000004776 POLICY BAZAAR 1",
+            "confidence": 0.9429,
+            "bbox_pixel": [
+              80.0,
+              204.0,
+              168.0,
+              213.0
+            ]
+          },
+          {
+            "text": "PLOT 119, SECTOR 44, GURGAON 122001,",
+            "confidence": 0.954,
+            "bbox_pixel": [
+              80.0,
+              213.0,
+              190.0,
+              222.0
+            ]
+          },
+          {
+            "text": "HARYANA.GURGAONHARYANA,122001",
+            "confidence": 0.9104,
+            "bbox_pixel": [
+              80.0,
+              220.0,
+              186.0,
+              228.0
+            ]
+          },
+          {
+            "text": "18000000787:/ertmotorOpolicyhaz.com",
+            "confidence": 0.6491,
+            "bbox_pixel": [
+              80.0,
+              226.0,
+              188.0,
+              235.0
+            ]
+          },
+          {
+            "text": "R012, SAI WATERCREST",
+            "confidence": 0.8712,
+            "bbox_pixel": [
+              81.0,
+              130.0,
+              145.0,
+              139.0
+            ]
+          },
+          {
+            "text": "62:11A, JAMBHULNADI ROAD",
+            "confidence": 0.8637,
+            "bbox_pixel": [
+              81.0,
+              138.0,
+              158.0,
+              147.0
+            ]
+          },
+          {
+            "text": "AMBEDAON (RO) MUMBAI",
+            "confidence": 0.7939,
+            "bbox_pixel": [
+              81.0,
+              147.0,
+              149.0,
+              156.0
+            ]
+          },
+          {
+            "text": "MAHARASHTRA 41104G",
+            "confidence": 0.9325,
+            "bbox_pixel": [
+              82.0,
+              155.0,
+              145.0,
+              164.0
+            ]
+          },
+          {
+            "text": "/ /9404730827 whes ghodakedyeal com Tel Fax Emal",
+            "confidence": 0.7392,
+            "bbox_pixel": [
+              82.0,
+              167.0,
+              232.0,
+              176.0
+            ]
+          },
+          {
+            "text": "Adtess",
+            "confidence": 0.7521,
+            "bbox_pixel": [
+              194.0,
+              132.0,
+              217.0,
+              141.0
+            ]
+          },
+          {
+            "text": "011:28750963.28758823.28753068:811",
+            "confidence": 0.8833,
+            "bbox_pixel": [
+              249.0,
+              166.0,
+              353.0,
+              175.0
+            ]
+          },
+          {
+            "text": "mandaxin.baiodhu@roriertatrsurance.co.n",
+            "confidence": 0.7546,
+            "bbox_pixel": [
+              249.0,
+              178.0,
+              353.0,
+              187.0
+            ]
+          },
+          {
+            "text": "28750644",
+            "confidence": 0.9251,
+            "bbox_pixel": [
+              250.0,
+              172.0,
+              278.0,
+              181.0
+            ]
+          },
+          {
+            "text": "PADAM SINGH ROAD, KAROL BAGH",
+            "confidence": 0.9034,
+            "bbox_pixel": [
+              252.0,
+              141.0,
+              346.0,
+              150.0
+            ]
+          },
+          {
+            "text": "NEW DILHI",
+            "confidence": 0.7902,
+            "bbox_pixel": [
+              252.0,
+              150.0,
+              286.0,
+              159.0
+            ]
+          },
+          {
+            "text": "NEW DELHI DELHIE 110005",
+            "confidence": 0.9132,
+            "bbox_pixel": [
+              252.0,
+              159.0,
+              321.0,
+              168.0
+            ]
+          },
+          {
+            "text": "18/2D, WEA, PIRST FLOOR,NEAR SHASTRI",
+            "confidence": 0.8779,
+            "bbox_pixel": [
+              253.0,
+              131.0,
+              361.0,
+              140.0
+            ]
+          },
+          {
+            "text": "PARK",
+            "confidence": 0.9895,
+            "bbox_pixel": [
+              253.0,
+              137.0,
+              270.0,
+              145.0
+            ]
+          },
+          {
+            "text": "Period sl lesurance",
+            "confidence": 0.7983,
+            "bbox_pixel": [
+              24.0,
+              239.0,
+              73.0,
+              248.0
+            ]
+          },
+          {
+            "text": "Colection No & D1",
+            "confidence": 0.9069,
+            "bbox_pixel": [
+              24.0,
+              249.0,
+              71.0,
+              258.0
+            ]
+          },
+          {
+            "text": "Ormoss Prenium",
+            "confidence": 0.8084,
+            "bbox_pixel": [
+              24.0,
+              259.0,
+              64.0,
+              268.0
+            ]
+          },
+          {
+            "text": "Oengraptical Arse",
+            "confidence": 0.8841,
+            "bbox_pixel": [
+              24.0,
+              268.0,
+              72.0,
+              278.0
+            ]
+          },
+          {
+            "text": "FROM 00:00 ON 16/00/2017 TO M0NCHT OF 17/00/2018",
+            "confidence": 0.8805,
+            "bbox_pixel": [
+              83.0,
+              238.0,
+              226.0,
+              247.0
+            ]
+          },
+          {
+            "text": "12005019288-04030017",
+            "confidence": 0.8883,
+            "bbox_pixel": [
+              83.0,
+              248.0,
+              150.0,
+              257.0
+            ]
+          },
+          {
+            "text": "5.055",
+            "confidence": 0.9467,
+            "bbox_pixel": [
+              82.0,
+              256.0,
+              102.0,
+              269.0
+            ]
+          },
+          {
+            "text": "INO",
+            "confidence": 0.8322,
+            "bbox_pixel": [
+              83.0,
+              268.0,
+              97.0,
+              278.0
+            ]
+          },
+          {
+            "text": "Servicn Tes",
+            "confidence": 0.7545,
+            "bbox_pixel": [
+              130.0,
+              259.0,
+              162.0,
+              268.0
+            ]
+          },
+          {
+            "text": "758",
+            "confidence": 0.823,
+            "bbox_pixel": [
+              175.0,
+              259.0,
+              188.0,
+              268.0
+            ]
+          },
+          {
+            "text": "Avea Excension",
+            "confidence": 0.7367,
+            "bbox_pixel": [
+              189.0,
+              268.0,
+              227.0,
+              277.0
+            ]
+          },
+          {
+            "text": "Stamp Duty",
+            "confidence": 0.9287,
+            "bbox_pixel": [
+              208.0,
+              259.0,
+              241.0,
+              269.0
+            ]
+          },
+          {
+            "text": "5",
+            "confidence": 0.9941,
+            "bbox_pixel": [
+              263.0,
+              259.0,
+              272.0,
+              268.0
+            ]
+          },
+          {
+            "text": "Tatal",
+            "confidence": 0.8817,
+            "bbox_pixel": [
+              282.0,
+              259.0,
+              299.0,
+              268.0
+            ]
+          },
+          {
+            "text": "1.818",
+            "confidence": 0.8744,
+            "bbox_pixel": [
+              310.0,
+              259.0,
+              328.0,
+              268.0
+            ]
+          },
+          {
+            "text": "Particutera of titasred Vehvicle:",
+            "confidence": 0.8025,
+            "bbox_pixel": [
+              155.0,
+              285.0,
+              232.0,
+              293.0
+            ]
+          },
+          {
+            "text": "Pagiatratian Mark",
+            "confidence": 0.8937,
+            "bbox_pixel": [
+              25.0,
+              296.0,
+              73.0,
+              305.0
+            ]
+          },
+          {
+            "text": "& Flece",
+            "confidence": 0.8627,
+            "bbox_pixel": [
+              25.0,
+              302.0,
+              48.0,
+              311.0
+            ]
+          },
+          {
+            "text": "Chessis No.",
+            "confidence": 0.8832,
+            "bbox_pixel": [
+              82.0,
+              302.0,
+              116.0,
+              311.0
+            ]
+          },
+          {
+            "text": "Engine No. A",
+            "confidence": 0.9059,
+            "bbox_pixel": [
+              83.0,
+              296.0,
+              118.0,
+              305.0
+            ]
+          },
+          {
+            "text": "Make- Model",
+            "confidence": 0.8844,
+            "bbox_pixel": [
+              136.0,
+              303.0,
+              173.0,
+              312.0
+            ]
+          },
+          {
+            "text": "Type Or Body",
+            "confidence": 0.9097,
+            "bbox_pixel": [
+              191.0,
+              296.0,
+              229.0,
+              306.0
+            ]
+          },
+          {
+            "text": "Capacilly",
+            "confidence": 0.8168,
+            "bbox_pixel": [
+              253.0,
+              302.0,
+              278.0,
+              312.0
+            ]
+          },
+          {
+            "text": "Culbic",
+            "confidence": 0.7964,
+            "bbox_pixel": [
+              260.0,
+              297.0,
+              278.0,
+              305.0
+            ]
+          },
+          {
+            "text": "Year Of Ssating Capastly",
+            "confidence": 0.868,
+            "bbox_pixel": [
+              283.0,
+              296.0,
+              349.0,
+              305.0
+            ]
+          },
+          {
+            "text": "Mant (nctuding Drivei)",
+            "confidence": 0.6866,
+            "bbox_pixel": [
+              287.0,
+              302.0,
+              350.0,
+              311.0
+            ]
+          },
+          {
+            "text": "Murtai West",
+            "confidence": 0.8417,
+            "bbox_pixel": [
+              24.0,
+              322.0,
+              62.0,
+              332.0
+            ]
+          },
+          {
+            "text": "M位区9753",
+            "confidence": 0.7516,
+            "bbox_pixel": [
+              25.0,
+              314.0,
+              67.0,
+              324.0
+            ]
+          },
+          {
+            "text": "7ENZ",
+            "confidence": 0.845,
+            "bbox_pixel": [
+              82.0,
+              329.0,
+              100.0,
+              338.0
+            ]
+          },
+          {
+            "text": "0083763",
+            "confidence": 0.8634,
+            "bbox_pixel": [
+              83.0,
+              315.0,
+              107.0,
+              324.0
+            ]
+          },
+          {
+            "text": "MCA11031B0901806",
+            "confidence": 0.9038,
+            "bbox_pixel": [
+              83.0,
+              323.0,
+              136.0,
+              332.0
+            ]
+          },
+          {
+            "text": "FIAT FiAT Lineo 1.3",
+            "confidence": 0.8244,
+            "bbox_pixel": [
+              136.0,
+              314.0,
+              189.0,
+              325.0
+            ]
+          },
+          {
+            "text": "Emctien (Dese",
+            "confidence": 0.7076,
+            "bbox_pixel": [
+              136.0,
+              319.0,
+              179.0,
+              330.0
+            ]
+          },
+          {
+            "text": "SAL00N",
+            "confidence": 0.7931,
+            "bbox_pixel": [
+              195.0,
+              315.0,
+              221.0,
+              324.0
+            ]
+          },
+          {
+            "text": "1248",
+            "confidence": 0.9785,
+            "bbox_pixel": [
+              261.0,
+              315.0,
+              278.0,
+              325.0
+            ]
+          },
+          {
+            "text": "2011 4+1",
+            "confidence": 0.894,
+            "bbox_pixel": [
+              289.0,
+              315.0,
+              321.0,
+              324.0
+            ]
+          },
+          {
+            "text": "Linitaltens as to use:",
+            "confidence": 0.8913,
+            "bbox_pixel": [
+              26.0,
+              341.0,
+              82.0,
+              350.0
+            ]
+          },
+          {
+            "text": "The FPoicy corers use of ihe veicie for mty pupose otte than d) Hie or Rleward bi Coiage of goodo (stter than sariples or",
+            "confidence": 0.8415,
+            "bbox_pixel": [
+              44.0,
+              351.0,
+              345.0,
+              360.0
+            ]
+          },
+          {
+            "text": "frade",
+            "confidence": 0.6615,
+            "bbox_pixel": [
+              46.0,
+              363.0,
+              62.0,
+              371.0
+            ]
+          },
+          {
+            "text": "Pace moking e) Speed lestig f Relabity Tidals gi Use in oonroitior wih Motar",
+            "confidence": 0.7615,
+            "bbox_pixel": [
+              149.0,
+              357.0,
+              344.0,
+              366.0
+            ]
+          },
+          {
+            "text": "Dher",
+            "confidence": 0.9019,
+            "bbox_pixel": [
+              25.0,
+              373.0,
+              43.0,
+              382.0
+            ]
+          },
+          {
+            "text": "vehicie and thal such a person satistes the reguirersents ol lhule 3 ol the Cental Motor Veticies Rubes. 15e0",
+            "confidence": 0.7682,
+            "bbox_pixel": [
+              25.0,
+              392.0,
+              281.0,
+              402.0
+            ]
+          },
+          {
+            "text": "Any person inchuding the insord. Provided Itnat a perspn dring hots an eftective onviig loense at ihe Sme of he accident and is not",
+            "confidence": 0.7846,
+            "bbox_pixel": [
+              26.0,
+              382.0,
+              339.0,
+              391.0
+            ]
+          },
+          {
+            "text": "disqumitied rom hoiding or cbiaiming such a lcerae. Provided aino tat ihe person hoding an efective Leamer's loenoe may alsa dme the",
+            "confidence": 0.6975,
+            "bbox_pixel": [
+              26.0,
+              388.0,
+              351.0,
+              396.0
+            ]
+          },
+          {
+            "text": "Under Section B-(1) in respect of any one accident: as per Motar Vetictes Ast, 198.",
+            "confidence": 0.8793,
+            "bbox_pixel": [
+              23.0,
+              415.0,
+              235.0,
+              424.0
+            ]
+          },
+          {
+            "text": "Under Section -üs) in respect of ary one clalin or series of clelms arising out of one evenst is fis.",
+            "confidence": 0.8766,
+            "bbox_pixel": [
+              23.0,
+              423.0,
+              269.0,
+              433.0
+            ]
+          },
+          {
+            "text": "P.A. Cover undee Section  tor Regiatered Owmer Cun Driver (CS)",
+            "confidence": 0.7105,
+            "bbox_pixel": [
+              23.0,
+              430.0,
+              195.0,
+              441.0
+            ]
+          },
+          {
+            "text": "Limit of Liablity:",
+            "confidence": 0.8729,
+            "bbox_pixel": [
+              24.0,
+              407.0,
+              68.0,
+              416.0
+            ]
+          },
+          {
+            "text": "Rs.",
+            "confidence": 0.8545,
+            "bbox_pixel": [
+              200.0,
+              431.0,
+              219.0,
+              440.0
+            ]
+          },
+          {
+            "text": "200000",
+            "confidence": 0.9922,
+            "bbox_pixel": [
+              228.0,
+              431.0,
+              249.0,
+              440.0
+            ]
+          },
+          {
+            "text": "T56000",
+            "confidence": 0.8293,
+            "bbox_pixel": [
+              283.0,
+              422.0,
+              304.0,
+              432.0
+            ]
+          },
+          {
+            "text": "for the Wehscle",
+            "confidence": 0.8492,
+            "bbox_pixel": [
+              28.0,
+              453.0,
+              72.0,
+              462.0
+            ]
+          },
+          {
+            "text": "1.32.072",
+            "confidence": 0.8264,
+            "bbox_pixel": [
+              49.0,
+              470.0,
+              74.0,
+              479.0
+            ]
+          },
+          {
+            "text": "For Trallere",
+            "confidence": 0.928,
+            "bbox_pixel": [
+              90.0,
+              453.0,
+              125.0,
+              463.0
+            ]
+          },
+          {
+            "text": "1",
+            "confidence": 0.8571,
+            "bbox_pixel": [
+              118.0,
+              471.0,
+              126.0,
+              478.0
+            ]
+          },
+          {
+            "text": "Hon Electirical",
+            "confidence": 0.9054,
+            "bbox_pixel": [
+              135.0,
+              453.0,
+              173.0,
+              462.0
+            ]
+          },
+          {
+            "text": "Accessories",
+            "confidence": 0.8758,
+            "bbox_pixel": [
+              138.0,
+              460.0,
+              172.0,
+              468.0
+            ]
+          },
+          {
+            "text": "inswred'a Declared Value",
+            "confidence": 0.8664,
+            "bbox_pixel": [
+              155.0,
+              445.0,
+              220.0,
+              454.0
+            ]
+          },
+          {
+            "text": "Acsensoriea",
+            "confidence": 0.6227,
+            "bbox_pixel": [
+              190.0,
+              458.0,
+              226.0,
+              469.0
+            ]
+          },
+          {
+            "text": "Eiectical",
+            "confidence": 0.7038,
+            "bbox_pixel": [
+              198.0,
+              453.0,
+              225.0,
+              462.0
+            ]
+          },
+          {
+            "text": "0",
+            "confidence": 0.6973,
+            "bbox_pixel": [
+              220.0,
+              472.0,
+              225.0,
+              478.0
+            ]
+          },
+          {
+            "text": "Value of CING",
+            "confidence": 0.8875,
+            "bbox_pixel": [
+              254.0,
+              453.0,
+              292.0,
+              463.0
+            ]
+          },
+          {
+            "text": "LPG KI",
+            "confidence": 0.9339,
+            "bbox_pixel": [
+              269.0,
+              459.0,
+              292.0,
+              469.0
+            ]
+          },
+          {
+            "text": "Total Vatue",
+            "confidence": 0.8106,
+            "bbox_pixel": [
+              319.0,
+              452.0,
+              354.0,
+              463.0
+            ]
+          },
+          {
+            "text": "8.82.071",
+            "confidence": 0.7641,
+            "bbox_pixel": [
+              329.0,
+              469.0,
+              355.0,
+              480.0
+            ]
+          },
+          {
+            "text": "Place",
+            "confidence": 0.7947,
+            "bbox_pixel": [
+              24.0,
+              491.0,
+              42.0,
+              500.0
+            ]
+          },
+          {
+            "text": "Date",
+            "confidence": 0.7609,
+            "bbox_pixel": [
+              24.0,
+              500.0,
+              40.0,
+              510.0
+            ]
+          },
+          {
+            "text": "NEW DELH",
+            "confidence": 0.8415,
+            "bbox_pixel": [
+              49.0,
+              490.0,
+              83.0,
+              500.0
+            ]
+          },
+          {
+            "text": "0493/2017",
+            "confidence": 0.9148,
+            "bbox_pixel": [
+              50.0,
+              500.0,
+              80.0,
+              510.0
+            ]
+          },
+          {
+            "text": "Page 1 at 2",
+            "confidence": 0.874,
+            "bbox_pixel": [
+              323.0,
+              504.0,
+              354.0,
+              515.0
+            ]
+          }
+        ],
+        "new_full_page_lines": [
+          {
+            "text": "MOTOR INSURANCE CERTIFICATE CUM POLICY SCHEDULE",
+            "confidence": 0.9949,
+            "bbox_pixel": [
+              24.0,
+              43.0,
+              257.0,
+              56.0
+            ]
+          },
+          {
+            "text": "PRIVATE CAR PACKAGE POLICY - ZONE A",
+            "confidence": 0.9655,
+            "bbox_pixel": [
+              25.0,
+              56.0,
+              190.0,
+              67.0
+            ]
+          },
+          {
+            "text": "211200312017m6158",
+            "confidence": 0.9328,
+            "bbox_pixel": [
+              80.0,
+              87.0,
+              138.0,
+              96.0
+            ]
+          },
+          {
+            "text": "Phes Puicy Ne",
+            "confidence": 0.8506,
+            "bbox_pixel": [
+              193.0,
+              85.0,
+              235.0,
+              97.0
+            ]
+          },
+          {
+            "text": "OUR ORENTAL-MY TVS EMERGENCY",
+            "confidence": 0.9546,
+            "bbox_pixel": [
+              258.0,
+              41.0,
+              362.0,
+              49.0
+            ]
+          },
+          {
+            "text": "Contact 24a7 Helplineflo.1800 €25 2002",
+            "confidence": 0.9037,
+            "bbox_pixel": [
+              259.0,
+              66.0,
+              360.0,
+              74.0
+            ]
+          },
+          {
+            "text": "(BSNLMTNL Linea) G000 2002 (prex state",
+            "confidence": 0.8487,
+            "bbox_pixel": [
+              259.0,
+              72.0,
+              368.0,
+              81.0
+            ]
+          },
+          {
+            "text": "capital STD code)",
+            "confidence": 0.9074,
+            "bbox_pixel": [
+              259.0,
+              78.0,
+              307.0,
+              86.0
+            ]
+          },
+          {
+            "text": "ROADSIDE ASSSTANCE SCHEME",
+            "confidence": 0.8977,
+            "bbox_pixel": [
+              266.0,
+              47.0,
+              357.0,
+              55.0
+            ]
+          },
+          {
+            "text": "211200/1615",
+            "confidence": 0.8822,
+            "bbox_pixel": [
+              311.0,
+              59.0,
+              347.0,
+              67.0
+            ]
+          },
+          {
+            "text": "Cover fiate No",
+            "confidence": 0.8367,
+            "bbox_pixel": [
+              25.0,
+              97.0,
+              63.0,
+              106.0
+            ]
+          },
+          {
+            "text": "Irsursd'e Code",
+            "confidence": 0.8803,
+            "bbox_pixel": [
+              25.0,
+              109.0,
+              63.0,
+              118.0
+            ]
+          },
+          {
+            "text": "77933187",
+            "confidence": 0.9505,
+            "bbox_pixel": [
+              80.0,
+              108.0,
+              108.0,
+              117.0
+            ]
+          },
+          {
+            "text": "Issue Otfice fieme",
+            "confidence": 0.8734,
+            "bbox_pixel": [
+              194.0,
+              118.0,
+              240.0,
+              126.0
+            ]
+          },
+          {
+            "text": "DORNEWDELHI",
+            "confidence": 0.9318,
+            "bbox_pixel": [
+              253.0,
+              117.0,
+              299.0,
+              126.0
+            ]
+          },
+          {
+            "text": "De Oft.Gode",
+            "confidence": 0.8549,
+            "bbox_pixel": [
+              25.0,
+              194.0,
+              63.0,
+              204.0
+            ]
+          },
+          {
+            "text": "Apens troker Oetalis",
+            "confidence": 0.8163,
+            "bbox_pixel": [
+              26.0,
+              186.0,
+              81.0,
+              195.0
+            ]
+          },
+          {
+            "text": "Addrens",
+            "confidence": 0.9177,
+            "bbox_pixel": [
+              26.0,
+              213.0,
+              50.0,
+              222.0
+            ]
+          },
+          {
+            "text": "PLOT 119, SECTOR 44, GURGAON 122001,",
+            "confidence": 0.954,
+            "bbox_pixel": [
+              80.0,
+              213.0,
+              190.0,
+              222.0
+            ]
+          },
+          {
+            "text": "HARYANA.GURGAONHARYANA,122001",
+            "confidence": 0.9104,
+            "bbox_pixel": [
+              80.0,
+              220.0,
+              186.0,
+              228.0
+            ]
+          },
+          {
+            "text": "R012, SAI WATERCREST",
+            "confidence": 0.8712,
+            "bbox_pixel": [
+              81.0,
+              130.0,
+              145.0,
+              139.0
+            ]
+          },
+          {
+            "text": "62:11A, JAMBHULNADI ROAD",
+            "confidence": 0.8637,
+            "bbox_pixel": [
+              81.0,
+              138.0,
+              158.0,
+              147.0
+            ]
+          },
+          {
+            "text": "011:28750963.28758823.28753068:811",
+            "confidence": 0.8833,
+            "bbox_pixel": [
+              249.0,
+              166.0,
+              353.0,
+              175.0
+            ]
+          },
+          {
+            "text": "28750644",
+            "confidence": 0.9251,
+            "bbox_pixel": [
+              250.0,
+              172.0,
+              278.0,
+              181.0
+            ]
+          },
+          {
+            "text": "PADAM SINGH ROAD, KAROL BAGH",
+            "confidence": 0.9034,
+            "bbox_pixel": [
+              252.0,
+              141.0,
+              346.0,
+              150.0
+            ]
+          },
+          {
+            "text": "NEW DELHI DELHIE 110005",
+            "confidence": 0.9132,
+            "bbox_pixel": [
+              252.0,
+              159.0,
+              321.0,
+              168.0
+            ]
+          },
+          {
+            "text": "18/2D, WEA, PIRST FLOOR,NEAR SHASTRI",
+            "confidence": 0.8779,
+            "bbox_pixel": [
+              253.0,
+              131.0,
+              361.0,
+              140.0
+            ]
+          },
+          {
+            "text": "PARK",
+            "confidence": 0.9895,
+            "bbox_pixel": [
+              253.0,
+              137.0,
+              270.0,
+              145.0
+            ]
+          },
+          {
+            "text": "Colection No & D1",
+            "confidence": 0.9069,
+            "bbox_pixel": [
+              24.0,
+              249.0,
+              71.0,
+              258.0
+            ]
+          },
+          {
+            "text": "Ormoss Prenium",
+            "confidence": 0.8084,
+            "bbox_pixel": [
+              24.0,
+              259.0,
+              64.0,
+              268.0
+            ]
+          },
+          {
+            "text": "Oengraptical Arse",
+            "confidence": 0.8841,
+            "bbox_pixel": [
+              24.0,
+              268.0,
+              72.0,
+              278.0
+            ]
+          },
+          {
+            "text": "FROM 00:00 ON 16/00/2017 TO M0NCHT OF 17/00/2018",
+            "confidence": 0.8805,
+            "bbox_pixel": [
+              83.0,
+              238.0,
+              226.0,
+              247.0
+            ]
+          },
+          {
+            "text": "12005019288-04030017",
+            "confidence": 0.8883,
+            "bbox_pixel": [
+              83.0,
+              248.0,
+              150.0,
+              257.0
+            ]
+          },
+          {
+            "text": "INO",
+            "confidence": 0.8322,
+            "bbox_pixel": [
+              83.0,
+              268.0,
+              97.0,
+              278.0
+            ]
+          },
+          {
+            "text": "Stamp Duty",
+            "confidence": 0.9287,
+            "bbox_pixel": [
+              208.0,
+              259.0,
+              241.0,
+              269.0
+            ]
+          },
+          {
+            "text": "Tatal",
+            "confidence": 0.8817,
+            "bbox_pixel": [
+              282.0,
+              259.0,
+              299.0,
+              268.0
+            ]
+          },
+          {
+            "text": "1.818",
+            "confidence": 0.8744,
+            "bbox_pixel": [
+              310.0,
+              259.0,
+              328.0,
+              268.0
+            ]
+          },
+          {
+            "text": "Particutera of titasred Vehvicle:",
+            "confidence": 0.8025,
+            "bbox_pixel": [
+              155.0,
+              285.0,
+              232.0,
+              293.0
+            ]
+          },
+          {
+            "text": "Pagiatratian Mark",
+            "confidence": 0.8937,
+            "bbox_pixel": [
+              25.0,
+              296.0,
+              73.0,
+              305.0
+            ]
+          },
+          {
+            "text": "Chessis No.",
+            "confidence": 0.8832,
+            "bbox_pixel": [
+              82.0,
+              302.0,
+              116.0,
+              311.0
+            ]
+          },
+          {
+            "text": "Engine No. A",
+            "confidence": 0.9059,
+            "bbox_pixel": [
+              83.0,
+              296.0,
+              118.0,
+              305.0
+            ]
+          },
+          {
+            "text": "Type Or Body",
+            "confidence": 0.9097,
+            "bbox_pixel": [
+              191.0,
+              296.0,
+              229.0,
+              306.0
+            ]
+          },
+          {
+            "text": "Capacilly",
+            "confidence": 0.8168,
+            "bbox_pixel": [
+              253.0,
+              302.0,
+              278.0,
+              312.0
+            ]
+          },
+          {
+            "text": "Year Of Ssating Capastly",
+            "confidence": 0.868,
+            "bbox_pixel": [
+              283.0,
+              296.0,
+              349.0,
+              305.0
+            ]
+          },
+          {
+            "text": "Murtai West",
+            "confidence": 0.8417,
+            "bbox_pixel": [
+              24.0,
+              322.0,
+              62.0,
+              332.0
+            ]
+          },
+          {
+            "text": "0083763",
+            "confidence": 0.8634,
+            "bbox_pixel": [
+              83.0,
+              315.0,
+              107.0,
+              324.0
+            ]
+          },
+          {
+            "text": "MCA11031B0901806",
+            "confidence": 0.9038,
+            "bbox_pixel": [
+              83.0,
+              323.0,
+              136.0,
+              332.0
+            ]
+          },
+          {
+            "text": "FIAT FiAT Lineo 1.3",
+            "confidence": 0.8244,
+            "bbox_pixel": [
+              136.0,
+              314.0,
+              189.0,
+              325.0
+            ]
+          },
+          {
+            "text": "1248",
+            "confidence": 0.9785,
+            "bbox_pixel": [
+              261.0,
+              315.0,
+              278.0,
+              325.0
+            ]
+          },
+          {
+            "text": "Linitaltens as to use:",
+            "confidence": 0.8913,
+            "bbox_pixel": [
+              26.0,
+              341.0,
+              82.0,
+              350.0
+            ]
+          },
+          {
+            "text": "The FPoicy corers use of ihe veicie for mty pupose otte than d) Hie or Rleward bi Coiage of goodo (stter than sariples or",
+            "confidence": 0.8415,
+            "bbox_pixel": [
+              44.0,
+              351.0,
+              345.0,
+              360.0
+            ]
+          },
+          {
+            "text": "Dher",
+            "confidence": 0.9019,
+            "bbox_pixel": [
+              25.0,
+              373.0,
+              43.0,
+              382.0
+            ]
+          },
+          {
+            "text": "Under Section B-(1) in respect of any one accident: as per Motar Vetictes Ast, 198.",
+            "confidence": 0.8793,
+            "bbox_pixel": [
+              23.0,
+              415.0,
+              235.0,
+              424.0
+            ]
+          },
+          {
+            "text": "Under Section -üs) in respect of ary one clalin or series of clelms arising out of one evenst is fis.",
+            "confidence": 0.8766,
+            "bbox_pixel": [
+              23.0,
+              423.0,
+              269.0,
+              433.0
+            ]
+          },
+          {
+            "text": "Limit of Liablity:",
+            "confidence": 0.8729,
+            "bbox_pixel": [
+              24.0,
+              407.0,
+              68.0,
+              416.0
+            ]
+          },
+          {
+            "text": "T56000",
+            "confidence": 0.8293,
+            "bbox_pixel": [
+              283.0,
+              422.0,
+              304.0,
+              432.0
+            ]
+          },
+          {
+            "text": "for the Wehscle",
+            "confidence": 0.8492,
+            "bbox_pixel": [
+              28.0,
+              453.0,
+              72.0,
+              462.0
+            ]
+          },
+          {
+            "text": "For Trallere",
+            "confidence": 0.928,
+            "bbox_pixel": [
+              90.0,
+              453.0,
+              125.0,
+              463.0
+            ]
+          },
+          {
+            "text": "Hon Electirical",
+            "confidence": 0.9054,
+            "bbox_pixel": [
+              135.0,
+              453.0,
+              173.0,
+              462.0
+            ]
+          },
+          {
+            "text": "Accessories",
+            "confidence": 0.8758,
+            "bbox_pixel": [
+              138.0,
+              460.0,
+              172.0,
+              468.0
+            ]
+          },
+          {
+            "text": "inswred'a Declared Value",
+            "confidence": 0.8664,
+            "bbox_pixel": [
+              155.0,
+              445.0,
+              220.0,
+              454.0
+            ]
+          },
+          {
+            "text": "Value of CING",
+            "confidence": 0.8875,
+            "bbox_pixel": [
+              254.0,
+              453.0,
+              292.0,
+              463.0
+            ]
+          },
+          {
+            "text": "LPG KI",
+            "confidence": 0.9339,
+            "bbox_pixel": [
+              269.0,
+              459.0,
+              292.0,
+              469.0
+            ]
+          },
+          {
+            "text": "Total Vatue",
+            "confidence": 0.8106,
+            "bbox_pixel": [
+              319.0,
+              452.0,
+              354.0,
+              463.0
+            ]
+          },
+          {
+            "text": "NEW DELH",
+            "confidence": 0.8415,
+            "bbox_pixel": [
+              49.0,
+              490.0,
+              83.0,
+              500.0
+            ]
+          },
+          {
+            "text": "Page 1 at 2",
+            "confidence": 0.874,
+            "bbox_pixel": [
+              323.0,
+              504.0,
+              354.0,
+              515.0
+            ]
+          }
+        ],
+        "regions": [
+          {
+            "kind": "footer",
+            "bbox_pixel": [
+              0,
+              485,
+              387,
+              516
+            ],
+            "upscaled_2x_lines": [
+              {
+                "text": "Piace",
+                "confidence": 0.5554,
+                "bbox_pixel": [
+                  24.0,
+                  491.5,
+                  41.0,
+                  500.5
+                ]
+              },
+              {
+                "text": "NEW DELHI",
+                "confidence": 0.9322,
+                "bbox_pixel": [
+                  50.5,
+                  491.5,
+                  82.0,
+                  499.5
+                ]
+              },
+              {
+                "text": "Data",
+                "confidence": 0.8541,
+                "bbox_pixel": [
+                  24.0,
+                  500.5,
+                  45.5,
+                  510.0
+                ]
+              },
+              {
+                "text": "0493/2017",
+                "confidence": 0.9177,
+                "bbox_pixel": [
+                  50.0,
+                  500.5,
+                  80.0,
+                  509.5
+                ]
+              },
+              {
+                "text": "Page 1 at2",
+                "confidence": 0.7861,
+                "bbox_pixel": [
+                  324.0,
+                  506.0,
+                  353.5,
+                  514.0
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "note": "Supplemental OCR evidence; review disagreements before replacing Docling text."
+  }
+}

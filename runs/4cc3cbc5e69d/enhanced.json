@@ -1,0 +1,3199 @@
+{
+  "schema": "pdf-layout-builder/docling-extraction/v1",
+  "extraction": {
+    "engine": "docling",
+    "version": "2.145.0",
+    "status": "success",
+    "errors": [],
+    "force_full_page_ocr": false,
+    "complete_conversion": true
+  },
+  "audit": {
+    "source_page_count": 1,
+    "docling_page_count": 1,
+    "page_count_matches": true,
+    "native_pdf_word_count": 0
+  },
+  "document": {
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "source",
+    "origin": {
+      "mimetype": "application/pdf",
+      "binary_hash": 4464079530339422923,
+      "filename": "source.jpg"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/tables/0"
+        },
+        {
+          "$ref": "#/tables/1"
+        },
+        {
+          "$ref": "#/tables/2"
+        },
+        {
+          "$ref": "#/tables/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [],
+    "texts": [],
+    "pictures": [],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 1.473610758781433,
+              "t": 465.4567768573761,
+              "r": 421.40057373046875,
+              "b": 384.0938720703125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 177.0,
+                "t": 21.333333333333332,
+                "r": 246.33333333333334,
+                "b": 34.333333333333336,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 3,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 3,
+              "text": "TAX INVOICE",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 6.0,
+                "t": 47.0,
+                "r": 139.66666666666666,
+                "b": 60.666666666666664,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Invoice No.: INV/2025/001",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 159.0,
+                "t": 47.333333333333336,
+                "r": 266.3333333333333,
+                "b": 78.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Date of Issue: 11-April- 2025",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 301.0,
+                "t": 47.0,
+                "r": 401.3333333333333,
+                "b": 61.333333333333336,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Reverse Charge: No",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 2,
+          "num_cols": 3,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "bbox": {
+                  "l": 177.0,
+                  "t": 21.333333333333332,
+                  "r": 246.33333333333334,
+                  "b": 34.333333333333336,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 3,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 3,
+                "text": "TAX INVOICE",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 177.0,
+                  "t": 21.333333333333332,
+                  "r": 246.33333333333334,
+                  "b": 34.333333333333336,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 3,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 3,
+                "text": "TAX INVOICE",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 177.0,
+                  "t": 21.333333333333332,
+                  "r": 246.33333333333334,
+                  "b": 34.333333333333336,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 3,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 3,
+                "text": "TAX INVOICE",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 6.0,
+                  "t": 47.0,
+                  "r": 139.66666666666666,
+                  "b": 60.666666666666664,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Invoice No.: INV/2025/001",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 159.0,
+                  "t": 47.333333333333336,
+                  "r": 266.3333333333333,
+                  "b": 78.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Date of Issue: 11-April- 2025",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 301.0,
+                  "t": 47.0,
+                  "r": 401.3333333333333,
+                  "b": 61.333333333333336,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Reverse Charge: No",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      },
+      {
+        "self_ref": "#/tables/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 1.860048770904541,
+              "t": 375.3436279296875,
+              "r": 421.4660339355469,
+              "b": 244.89418029785156,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 66.33333333333333,
+                "t": 99.33333333333333,
+                "r": 147.33333333333334,
+                "b": 113.33333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Supplier Details",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 273.6666666666667,
+                "t": 99.66666666666667,
+                "r": 358.3333333333333,
+                "b": 112.66666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Recipient Details",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 5.666666666666667,
+                "t": 125.66666666666667,
+                "r": 102.66666666666667,
+                "b": 139.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Name: ABC Traders",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 213.66666666666666,
+                "t": 124.66666666666667,
+                "r": 328.6666666666667,
+                "b": 139.66666666666666,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Name: XYZ Enterprises",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 5.666666666666667,
+                "t": 150.33333333333334,
+                "r": 172.33333333333334,
+                "b": 164.66666666666666,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Address: 123, Bengaluru– 560001",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 214.33333333333334,
+                "t": 150.33333333333334,
+                "r": 369.0,
+                "b": 164.66666666666666,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Address: 45, Mumbai -400050",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 6.0,
+                "t": 175.66666666666666,
+                "r": 136.66666666666666,
+                "b": 189.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "GSTIN: 29ABCDE1234F1Z5",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 214.33333333333334,
+                "t": 174.66666666666666,
+                "r": 349.0,
+                "b": 189.66666666666666,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "GSTIN:27XYZDE5678L2Z6",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 5.666666666666667,
+                "t": 203.0,
+                "r": 81.0,
+                "b": 215.33333333333334,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "State Code: 29",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 214.33333333333334,
+                "t": 202.33333333333334,
+                "r": 289.6666666666667,
+                "b": 215.66666666666666,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "State Code: 27",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 5,
+          "num_cols": 2,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "bbox": {
+                  "l": 66.33333333333333,
+                  "t": 99.33333333333333,
+                  "r": 147.33333333333334,
+                  "b": 113.33333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Supplier Details",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 273.6666666666667,
+                  "t": 99.66666666666667,
+                  "r": 358.3333333333333,
+                  "b": 112.66666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Recipient Details",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 5.666666666666667,
+                  "t": 125.66666666666667,
+                  "r": 102.66666666666667,
+                  "b": 139.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Name: ABC Traders",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 213.66666666666666,
+                  "t": 124.66666666666667,
+                  "r": 328.6666666666667,
+                  "b": 139.66666666666666,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Name: XYZ Enterprises",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 5.666666666666667,
+                  "t": 150.33333333333334,
+                  "r": 172.33333333333334,
+                  "b": 164.66666666666666,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Address: 123, Bengaluru– 560001",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 214.33333333333334,
+                  "t": 150.33333333333334,
+                  "r": 369.0,
+                  "b": 164.66666666666666,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Address: 45, Mumbai -400050",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 6.0,
+                  "t": 175.66666666666666,
+                  "r": 136.66666666666666,
+                  "b": 189.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "GSTIN: 29ABCDE1234F1Z5",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 214.33333333333334,
+                  "t": 174.66666666666666,
+                  "r": 349.0,
+                  "b": 189.66666666666666,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "GSTIN:27XYZDE5678L2Z6",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 5.666666666666667,
+                  "t": 203.0,
+                  "r": 81.0,
+                  "b": 215.33333333333334,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "State Code: 29",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 214.33333333333334,
+                  "t": 202.33333333333334,
+                  "r": 289.6666666666667,
+                  "b": 215.66666666666666,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "State Code: 27",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      },
+      {
+        "self_ref": "#/tables/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 1.0350996255874634,
+              "t": 236.738525390625,
+              "r": 421.3476257324219,
+              "b": 124.74481201171875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 4.666666666666667,
+                "t": 237.33333333333334,
+                "r": 27.666666666666668,
+                "b": 269.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Sr. No.",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 32.666666666666664,
+                "t": 238.0,
+                "r": 113.0,
+                "b": 268.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Description of Goods/Services",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 117.33333333333333,
+                "t": 237.66666666666666,
+                "r": 169.0,
+                "b": 252.33333333333334,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "HSN/SAC",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 174.0,
+                "t": 236.33333333333334,
+                "r": 198.0,
+                "b": 254.66666666666666,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Qty",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 207.0,
+                "t": 237.33333333333334,
+                "r": 238.66666666666666,
+                "b": 288.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "Unit Price (2)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 248.66666666666666,
+                "t": 237.0,
+                "r": 292.0,
+                "b": 288.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "Taxable Value (2)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 298.3333333333333,
+                "t": 237.33333333333334,
+                "r": 332.0,
+                "b": 288.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 6,
+              "end_col_offset_idx": 7,
+              "text": "CGST %60 (x)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 337.3333333333333,
+                "t": 237.33333333333334,
+                "r": 370.3333333333333,
+                "b": 288.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 7,
+              "end_col_offset_idx": 8,
+              "text": "SGST %6 (2)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 381.6666666666667,
+                "t": 237.33333333333334,
+                "r": 412.3333333333333,
+                "b": 271.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 8,
+              "end_col_offset_idx": 9,
+              "text": "Total (x)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 4.0,
+                "t": 295.3333333333333,
+                "r": 15.666666666666666,
+                "b": 310.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 31.0,
+                "t": 295.0,
+                "r": 71.0,
+                "b": 312.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Laptop",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 116.33333333333333,
+                "t": 294.3333333333333,
+                "r": 145.66666666666666,
+                "b": 311.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "8471",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 172.66666666666666,
+                "t": 295.0,
+                "r": 186.66666666666666,
+                "b": 311.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "2",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 202.33333333333334,
+                "t": 294.6666666666667,
+                "r": 242.66666666666666,
+                "b": 311.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "50,000",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 247.0,
+                "t": 294.3333333333333,
+                "r": 294.3333333333333,
+                "b": 311.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "1,00,000",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 297.0,
+                "t": 294.0,
+                "r": 331.6666666666667,
+                "b": 311.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 6,
+              "end_col_offset_idx": 7,
+              "text": "9,000",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 335.6666666666667,
+                "t": 294.0,
+                "r": 370.6666666666667,
+                "b": 311.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 7,
+              "end_col_offset_idx": 8,
+              "text": "9,000",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 374.6666666666667,
+                "t": 294.6666666666667,
+                "r": 417.3333333333333,
+                "b": 311.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 8,
+              "end_col_offset_idx": 9,
+              "text": "1,18,000",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 4.0,
+                "t": 320.0,
+                "r": 17.333333333333332,
+                "b": 336.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "2",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 32.333333333333336,
+                "t": 321.3333333333333,
+                "r": 111.66666666666667,
+                "b": 335.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Wireless Mouse",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 116.33333333333333,
+                "t": 319.3333333333333,
+                "r": 145.66666666666666,
+                "b": 336.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "8471",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 172.66666666666666,
+                "t": 320.6666666666667,
+                "r": 186.66666666666666,
+                "b": 336.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "5",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 201.33333333333334,
+                "t": 319.3333333333333,
+                "r": 228.66666666666666,
+                "b": 337.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "500",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 246.66666666666666,
+                "t": 319.3333333333333,
+                "r": 282.3333333333333,
+                "b": 337.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "2,500",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 297.0,
+                "t": 319.3333333333333,
+                "r": 323.3333333333333,
+                "b": 337.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 6,
+              "end_col_offset_idx": 7,
+              "text": "225",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 335.0,
+                "t": 319.3333333333333,
+                "r": 362.3333333333333,
+                "b": 337.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 7,
+              "end_col_offset_idx": 8,
+              "text": "225",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 374.3333333333333,
+                "t": 319.3333333333333,
+                "r": 410.0,
+                "b": 337.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 8,
+              "end_col_offset_idx": 9,
+              "text": "2,950",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 3,
+          "num_cols": 9,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "bbox": {
+                  "l": 4.666666666666667,
+                  "t": 237.33333333333334,
+                  "r": 27.666666666666668,
+                  "b": 269.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Sr. No.",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 32.666666666666664,
+                  "t": 238.0,
+                  "r": 113.0,
+                  "b": 268.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Description of Goods/Services",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 117.33333333333333,
+                  "t": 237.66666666666666,
+                  "r": 169.0,
+                  "b": 252.33333333333334,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "HSN/SAC",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 174.0,
+                  "t": 236.33333333333334,
+                  "r": 198.0,
+                  "b": 254.66666666666666,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "Qty",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 207.0,
+                  "t": 237.33333333333334,
+                  "r": 238.66666666666666,
+                  "b": 288.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "Unit Price (2)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 248.66666666666666,
+                  "t": 237.0,
+                  "r": 292.0,
+                  "b": 288.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "Taxable Value (2)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 298.3333333333333,
+                  "t": 237.33333333333334,
+                  "r": 332.0,
+                  "b": 288.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 6,
+                "end_col_offset_idx": 7,
+                "text": "CGST %60 (x)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 337.3333333333333,
+                  "t": 237.33333333333334,
+                  "r": 370.3333333333333,
+                  "b": 288.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 7,
+                "end_col_offset_idx": 8,
+                "text": "SGST %6 (2)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 381.6666666666667,
+                  "t": 237.33333333333334,
+                  "r": 412.3333333333333,
+                  "b": 271.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 8,
+                "end_col_offset_idx": 9,
+                "text": "Total (x)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 4.0,
+                  "t": 295.3333333333333,
+                  "r": 15.666666666666666,
+                  "b": 310.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "1",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 31.0,
+                  "t": 295.0,
+                  "r": 71.0,
+                  "b": 312.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Laptop",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 116.33333333333333,
+                  "t": 294.3333333333333,
+                  "r": 145.66666666666666,
+                  "b": 311.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "8471",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 172.66666666666666,
+                  "t": 295.0,
+                  "r": 186.66666666666666,
+                  "b": 311.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "2",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 202.33333333333334,
+                  "t": 294.6666666666667,
+                  "r": 242.66666666666666,
+                  "b": 311.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "50,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 247.0,
+                  "t": 294.3333333333333,
+                  "r": 294.3333333333333,
+                  "b": 311.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "1,00,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 297.0,
+                  "t": 294.0,
+                  "r": 331.6666666666667,
+                  "b": 311.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 6,
+                "end_col_offset_idx": 7,
+                "text": "9,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 335.6666666666667,
+                  "t": 294.0,
+                  "r": 370.6666666666667,
+                  "b": 311.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 7,
+                "end_col_offset_idx": 8,
+                "text": "9,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 374.6666666666667,
+                  "t": 294.6666666666667,
+                  "r": 417.3333333333333,
+                  "b": 311.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 8,
+                "end_col_offset_idx": 9,
+                "text": "1,18,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 4.0,
+                  "t": 320.0,
+                  "r": 17.333333333333332,
+                  "b": 336.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "2",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 32.333333333333336,
+                  "t": 321.3333333333333,
+                  "r": 111.66666666666667,
+                  "b": 335.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Wireless Mouse",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 116.33333333333333,
+                  "t": 319.3333333333333,
+                  "r": 145.66666666666666,
+                  "b": 336.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "8471",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 172.66666666666666,
+                  "t": 320.6666666666667,
+                  "r": 186.66666666666666,
+                  "b": 336.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "5",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 201.33333333333334,
+                  "t": 319.3333333333333,
+                  "r": 228.66666666666666,
+                  "b": 337.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "500",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 246.66666666666666,
+                  "t": 319.3333333333333,
+                  "r": 282.3333333333333,
+                  "b": 337.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "2,500",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 297.0,
+                  "t": 319.3333333333333,
+                  "r": 323.3333333333333,
+                  "b": 337.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 6,
+                "end_col_offset_idx": 7,
+                "text": "225",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 335.0,
+                  "t": 319.3333333333333,
+                  "r": 362.3333333333333,
+                  "b": 337.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 7,
+                "end_col_offset_idx": 8,
+                "text": "225",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 374.3333333333333,
+                  "t": 319.3333333333333,
+                  "r": 410.0,
+                  "b": 337.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 8,
+                "end_col_offset_idx": 9,
+                "text": "2,950",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      },
+      {
+        "self_ref": "#/tables/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 0.16232764720916748,
+              "t": 116.80618286132812,
+              "r": 421.8733215332031,
+              "b": 4.92462158203125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 6.333333333333333,
+                "t": 357.6666666666667,
+                "r": 103.66666666666667,
+                "b": 391.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Total Taxable Value (R)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 123.33333333333333,
+                "t": 357.6666666666667,
+                "r": 195.66666666666666,
+                "b": 372.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Total CGST ()",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 227.0,
+                "t": 356.6666666666667,
+                "r": 299.0,
+                "b": 373.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Total SGST (²)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 327.6666666666667,
+                "t": 357.6666666666667,
+                "r": 407.6666666666667,
+                "b": 372.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Invoice Total ()",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 4.666666666666667,
+                "t": 398.3333333333333,
+                "r": 50.666666666666664,
+                "b": 414.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "1,02,500",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 109.0,
+                "t": 398.3333333333333,
+                "r": 143.66666666666666,
+                "b": 415.3333333333333,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "9,225",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 212.66666666666666,
+                "t": 397.3333333333333,
+                "r": 247.33333333333334,
+                "b": 416.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "9,225",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 317.0,
+                "t": 398.3333333333333,
+                "r": 363.3333333333333,
+                "b": 415.0,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "1,20,950",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 5.0,
+                "t": 425.3333333333333,
+                "r": 377.3333333333333,
+                "b": 456.6666666666667,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 4,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 4,
+              "text": "Place of Supply: Maharashtra IShipping Address: 45, Linking Road, Mumbai – 400050Signature (Authorised Signatory):",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          "num_rows": 3,
+          "num_cols": 4,
+          "orientation": "rot_0",
+          "grid": [
+            [
+              {
+                "bbox": {
+                  "l": 6.333333333333333,
+                  "t": 357.6666666666667,
+                  "r": 103.66666666666667,
+                  "b": 391.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Total Taxable Value (R)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 123.33333333333333,
+                  "t": 357.6666666666667,
+                  "r": 195.66666666666666,
+                  "b": 372.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Total CGST ()",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 227.0,
+                  "t": 356.6666666666667,
+                  "r": 299.0,
+                  "b": 373.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Total SGST (²)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 327.6666666666667,
+                  "t": 357.6666666666667,
+                  "r": 407.6666666666667,
+                  "b": 372.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "Invoice Total ()",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 4.666666666666667,
+                  "t": 398.3333333333333,
+                  "r": 50.666666666666664,
+                  "b": 414.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "1,02,500",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 109.0,
+                  "t": 398.3333333333333,
+                  "r": 143.66666666666666,
+                  "b": 415.3333333333333,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "9,225",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 212.66666666666666,
+                  "t": 397.3333333333333,
+                  "r": 247.33333333333334,
+                  "b": 416.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "9,225",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 317.0,
+                  "t": 398.3333333333333,
+                  "r": 363.3333333333333,
+                  "b": 415.0,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "1,20,950",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 5.0,
+                  "t": 425.3333333333333,
+                  "r": 377.3333333333333,
+                  "b": 456.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 4,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 4,
+                "text": "Place of Supply: Maharashtra IShipping Address: 45, Linking Road, Mumbai – 400050Signature (Authorised Signatory):",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 5.0,
+                  "t": 425.3333333333333,
+                  "r": 377.3333333333333,
+                  "b": 456.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 4,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 4,
+                "text": "Place of Supply: Maharashtra IShipping Address: 45, Linking Road, Mumbai – 400050Signature (Authorised Signatory):",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 5.0,
+                  "t": 425.3333333333333,
+                  "r": 377.3333333333333,
+                  "b": 456.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 4,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 4,
+                "text": "Place of Supply: Maharashtra IShipping Address: 45, Linking Road, Mumbai – 400050Signature (Authorised Signatory):",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              },
+              {
+                "bbox": {
+                  "l": 5.0,
+                  "t": 425.3333333333333,
+                  "r": 377.3333333333333,
+                  "b": 456.6666666666667,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 4,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 4,
+                "text": "Place of Supply: Maharashtra IShipping Address: 45, Linking Road, Mumbai – 400050Signature (Authorised Signatory):",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false,
+                "fillable": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+      "1": {
+        "size": {
+          "width": 427.0,
+          "height": 468.0
+        },
+        "page_no": 1
+      }
+    }
+  },
+  "native_pdf_text": [],
+  "rapidocr_layers": {
+    "version": "3.10.0",
+    "backend": "torch",
+    "dpi": 200,
+    "pages": [
+      {
+        "page": 1,
+        "width_px": 427,
+        "height_px": 468,
+        "full_page_lines": [
+          {
+            "text": "TAX INVOICE",
+            "confidence": 0.9718,
+            "bbox_pixel": [
+              176.0,
+              20.0,
+              247.0,
+              36.0
+            ]
+          },
+          {
+            "text": "Invoice No.: INV/2025/001",
+            "confidence": 0.9896,
+            "bbox_pixel": [
+              5.0,
+              45.0,
+              140.0,
+              62.0
+            ]
+          },
+          {
+            "text": "Date of Issue: 11-April-",
+            "confidence": 0.9722,
+            "bbox_pixel": [
+              158.0,
+              46.0,
+              267.0,
+              61.0
+            ]
+          },
+          {
+            "text": "Reverse Charge: No",
+            "confidence": 0.9908,
+            "bbox_pixel": [
+              301.0,
+              46.0,
+              402.0,
+              62.0
+            ]
+          },
+          {
+            "text": "2025",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              197.0,
+              61.0,
+              230.0,
+              79.0
+            ]
+          },
+          {
+            "text": "Supplier Details",
+            "confidence": 0.9998,
+            "bbox_pixel": [
+              64.0,
+              96.0,
+              149.0,
+              115.0
+            ]
+          },
+          {
+            "text": "Recipient Details",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              272.0,
+              98.0,
+              360.0,
+              113.0
+            ]
+          },
+          {
+            "text": "Name: ABC Traders",
+            "confidence": 0.9995,
+            "bbox_pixel": [
+              5.0,
+              124.0,
+              103.0,
+              140.0
+            ]
+          },
+          {
+            "text": "Name: XYZ Enterprises",
+            "confidence": 0.9918,
+            "bbox_pixel": [
+              212.0,
+              123.0,
+              328.0,
+              140.0
+            ]
+          },
+          {
+            "text": "Address: 123, Bengaluru- 560001",
+            "confidence": 0.967,
+            "bbox_pixel": [
+              5.0,
+              149.0,
+              173.0,
+              165.0
+            ]
+          },
+          {
+            "text": "Address: 45, Mumbai-400050",
+            "confidence": 0.9438,
+            "bbox_pixel": [
+              214.0,
+              149.0,
+              370.0,
+              164.0
+            ]
+          },
+          {
+            "text": "GSTIN: 29ABCDE1234F1Z5",
+            "confidence": 0.9861,
+            "bbox_pixel": [
+              6.0,
+              176.0,
+              137.0,
+              189.0
+            ]
+          },
+          {
+            "text": "GSTIN:27XYZDE5678L2Z6",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              213.0,
+              174.0,
+              349.0,
+              190.0
+            ]
+          },
+          {
+            "text": "State Code: 29",
+            "confidence": 0.9984,
+            "bbox_pixel": [
+              5.0,
+              201.0,
+              82.0,
+              216.0
+            ]
+          },
+          {
+            "text": "State Code: 27",
+            "confidence": 0.9869,
+            "bbox_pixel": [
+              213.0,
+              201.0,
+              290.0,
+              216.0
+            ]
+          },
+          {
+            "text": "Sr.",
+            "confidence": 0.9957,
+            "bbox_pixel": [
+              6.0,
+              236.0,
+              27.0,
+              254.0
+            ]
+          },
+          {
+            "text": "Description of",
+            "confidence": 0.9717,
+            "bbox_pixel": [
+              35.0,
+              237.0,
+              112.0,
+              253.0
+            ]
+          },
+          {
+            "text": "HSN/SAC",
+            "confidence": 0.9998,
+            "bbox_pixel": [
+              116.0,
+              236.0,
+              171.0,
+              254.0
+            ]
+          },
+          {
+            "text": "Qty",
+            "confidence": 0.98,
+            "bbox_pixel": [
+              172.0,
+              235.0,
+              199.0,
+              255.0
+            ]
+          },
+          {
+            "text": "Unit",
+            "confidence": 0.9997,
+            "bbox_pixel": [
+              208.0,
+              236.0,
+              238.0,
+              254.0
+            ]
+          },
+          {
+            "text": "Taxable",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              248.0,
+              237.0,
+              293.0,
+              253.0
+            ]
+          },
+          {
+            "text": "CGST",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              298.0,
+              236.0,
+              332.0,
+              253.0
+            ]
+          },
+          {
+            "text": "SGST",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              336.0,
+              236.0,
+              371.0,
+              253.0
+            ]
+          },
+          {
+            "text": "Total",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              381.0,
+              236.0,
+              413.0,
+              254.0
+            ]
+          },
+          {
+            "text": "No.",
+            "confidence": 0.9986,
+            "bbox_pixel": [
+              4.0,
+              253.0,
+              28.0,
+              270.0
+            ]
+          },
+          {
+            "text": "Goods/Services",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              31.0,
+              253.0,
+              113.0,
+              269.0
+            ]
+          },
+          {
+            "text": "Price",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              207.0,
+              253.0,
+              240.0,
+              270.0
+            ]
+          },
+          {
+            "text": "Value",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              253.0,
+              253.0,
+              289.0,
+              270.0
+            ]
+          },
+          {
+            "text": "σ 9%",
+            "confidence": 0.7672,
+            "bbox_pixel": [
+              298.0,
+              253.0,
+              332.0,
+              270.0
+            ]
+          },
+          {
+            "text": "a 9%",
+            "confidence": 0.8283,
+            "bbox_pixel": [
+              336.0,
+              253.0,
+              371.0,
+              270.0
+            ]
+          },
+          {
+            "text": "(2)",
+            "confidence": 0.7359,
+            "bbox_pixel": [
+              386.0,
+              253.0,
+              408.0,
+              272.0
+            ]
+          },
+          {
+            "text": "(2)",
+            "confidence": 0.8255,
+            "bbox_pixel": [
+              212.0,
+              269.0,
+              234.0,
+              288.0
+            ]
+          },
+          {
+            "text": "(R)",
+            "confidence": 0.8377,
+            "bbox_pixel": [
+              260.0,
+              269.0,
+              281.0,
+              288.0
+            ]
+          },
+          {
+            "text": "(R)",
+            "confidence": 0.8176,
+            "bbox_pixel": [
+              305.0,
+              269.0,
+              326.0,
+              288.0
+            ]
+          },
+          {
+            "text": "(2)",
+            "confidence": 0.7528,
+            "bbox_pixel": [
+              343.0,
+              269.0,
+              364.0,
+              288.0
+            ]
+          },
+          {
+            "text": "1",
+            "confidence": 0.9992,
+            "bbox_pixel": [
+              3.0,
+              294.0,
+              17.0,
+              311.0
+            ]
+          },
+          {
+            "text": "Laptop",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              28.0,
+              292.0,
+              73.0,
+              314.0
+            ]
+          },
+          {
+            "text": "8471",
+            "confidence": 0.9989,
+            "bbox_pixel": [
+              115.0,
+              292.0,
+              147.0,
+              313.0
+            ]
+          },
+          {
+            "text": "2",
+            "confidence": 0.9996,
+            "bbox_pixel": [
+              172.0,
+              294.0,
+              187.0,
+              312.0
+            ]
+          },
+          {
+            "text": "50,000",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              201.0,
+              293.0,
+              244.0,
+              312.0
+            ]
+          },
+          {
+            "text": "1,00,000",
+            "confidence": 0.9998,
+            "bbox_pixel": [
+              246.0,
+              294.0,
+              295.0,
+              312.0
+            ]
+          },
+          {
+            "text": "9,000",
+            "confidence": 0.9996,
+            "bbox_pixel": [
+              296.0,
+              294.0,
+              331.0,
+              311.0
+            ]
+          },
+          {
+            "text": "9,000",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              335.0,
+              293.0,
+              372.0,
+              312.0
+            ]
+          },
+          {
+            "text": "1,18,000",
+            "confidence": 0.9992,
+            "bbox_pixel": [
+              374.0,
+              293.0,
+              419.0,
+              312.0
+            ]
+          },
+          {
+            "text": "2",
+            "confidence": 0.9997,
+            "bbox_pixel": [
+              3.0,
+              320.0,
+              18.0,
+              338.0
+            ]
+          },
+          {
+            "text": "Wireless Mouse",
+            "confidence": 0.9998,
+            "bbox_pixel": [
+              31.0,
+              319.0,
+              114.0,
+              337.0
+            ]
+          },
+          {
+            "text": "8471",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              114.0,
+              318.0,
+              147.0,
+              338.0
+            ]
+          },
+          {
+            "text": "5",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              172.0,
+              320.0,
+              187.0,
+              338.0
+            ]
+          },
+          {
+            "text": "500",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              200.0,
+              318.0,
+              230.0,
+              338.0
+            ]
+          },
+          {
+            "text": "2,500",
+            "confidence": 0.9998,
+            "bbox_pixel": [
+              245.0,
+              319.0,
+              283.0,
+              338.0
+            ]
+          },
+          {
+            "text": "225",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              295.0,
+              318.0,
+              325.0,
+              338.0
+            ]
+          },
+          {
+            "text": "225",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              334.0,
+              318.0,
+              364.0,
+              338.0
+            ]
+          },
+          {
+            "text": "2,950",
+            "confidence": 0.9998,
+            "bbox_pixel": [
+              373.0,
+              318.0,
+              410.0,
+              338.0
+            ]
+          },
+          {
+            "text": "Total Taxable Value",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              6.0,
+              357.0,
+              104.0,
+              372.0
+            ]
+          },
+          {
+            "text": "Total CGST (R)",
+            "confidence": 0.9745,
+            "bbox_pixel": [
+              122.0,
+              356.0,
+              197.0,
+              373.0
+            ]
+          },
+          {
+            "text": "Total SGST (R)",
+            "confidence": 0.9398,
+            "bbox_pixel": [
+              226.0,
+              356.0,
+              301.0,
+              373.0
+            ]
+          },
+          {
+            "text": "Invoice Total (R)",
+            "confidence": 0.9751,
+            "bbox_pixel": [
+              327.0,
+              357.0,
+              408.0,
+              373.0
+            ]
+          },
+          {
+            "text": "(R)",
+            "confidence": 0.978,
+            "bbox_pixel": [
+              44.0,
+              371.0,
+              66.0,
+              392.0
+            ]
+          },
+          {
+            "text": "1,02,500",
+            "confidence": 0.9997,
+            "bbox_pixel": [
+              2.0,
+              396.0,
+              52.0,
+              417.0
+            ]
+          },
+          {
+            "text": "9,225",
+            "confidence": 0.9968,
+            "bbox_pixel": [
+              108.0,
+              397.0,
+              145.0,
+              417.0
+            ]
+          },
+          {
+            "text": "9,225",
+            "confidence": 0.9988,
+            "bbox_pixel": [
+              211.0,
+              395.0,
+              249.0,
+              417.0
+            ]
+          },
+          {
+            "text": "1,20,950",
+            "confidence": 0.998,
+            "bbox_pixel": [
+              315.0,
+              396.0,
+              364.0,
+              417.0
+            ]
+          },
+          {
+            "text": "Place of Supply: Maharashtra | Shipping Address: 45, Linking Road, Mumbai -",
+            "confidence": 0.9748,
+            "bbox_pixel": [
+              5.0,
+              425.0,
+              378.0,
+              440.0
+            ]
+          },
+          {
+            "text": "400050 Signature (Authorised Signatory):",
+            "confidence": 0.9896,
+            "bbox_pixel": [
+              5.0,
+              440.0,
+              218.0,
+              457.0
+            ]
+          }
+        ],
+        "new_full_page_lines": [
+          {
+            "text": "Date of Issue: 11-April-",
+            "confidence": 0.9722,
+            "bbox_pixel": [
+              158.0,
+              46.0,
+              267.0,
+              61.0
+            ]
+          },
+          {
+            "text": "2025",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              197.0,
+              61.0,
+              230.0,
+              79.0
+            ]
+          },
+          {
+            "text": "Description of",
+            "confidence": 0.9717,
+            "bbox_pixel": [
+              35.0,
+              237.0,
+              112.0,
+              253.0
+            ]
+          },
+          {
+            "text": "Unit",
+            "confidence": 0.9997,
+            "bbox_pixel": [
+              208.0,
+              236.0,
+              238.0,
+              254.0
+            ]
+          },
+          {
+            "text": "Taxable",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              248.0,
+              237.0,
+              293.0,
+              253.0
+            ]
+          },
+          {
+            "text": "CGST",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              298.0,
+              236.0,
+              332.0,
+              253.0
+            ]
+          },
+          {
+            "text": "SGST",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              336.0,
+              236.0,
+              371.0,
+              253.0
+            ]
+          },
+          {
+            "text": "Total",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              381.0,
+              236.0,
+              413.0,
+              254.0
+            ]
+          },
+          {
+            "text": "Goods/Services",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              31.0,
+              253.0,
+              113.0,
+              269.0
+            ]
+          },
+          {
+            "text": "Price",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              207.0,
+              253.0,
+              240.0,
+              270.0
+            ]
+          },
+          {
+            "text": "Value",
+            "confidence": 0.9999,
+            "bbox_pixel": [
+              253.0,
+              253.0,
+              289.0,
+              270.0
+            ]
+          },
+          {
+            "text": "Total Taxable Value",
+            "confidence": 1.0,
+            "bbox_pixel": [
+              6.0,
+              357.0,
+              104.0,
+              372.0
+            ]
+          },
+          {
+            "text": "Total CGST (R)",
+            "confidence": 0.9745,
+            "bbox_pixel": [
+              122.0,
+              356.0,
+              197.0,
+              373.0
+            ]
+          },
+          {
+            "text": "Total SGST (R)",
+            "confidence": 0.9398,
+            "bbox_pixel": [
+              226.0,
+              356.0,
+              301.0,
+              373.0
+            ]
+          },
+          {
+            "text": "Invoice Total (R)",
+            "confidence": 0.9751,
+            "bbox_pixel": [
+              327.0,
+              357.0,
+              408.0,
+              373.0
+            ]
+          },
+          {
+            "text": "Place of Supply: Maharashtra | Shipping Address: 45, Linking Road, Mumbai -",
+            "confidence": 0.9748,
+            "bbox_pixel": [
+              5.0,
+              425.0,
+              378.0,
+              440.0
+            ]
+          },
+          {
+            "text": "400050 Signature (Authorised Signatory):",
+            "confidence": 0.9896,
+            "bbox_pixel": [
+              5.0,
+              440.0,
+              218.0,
+              457.0
+            ]
+          }
+        ],
+        "regions": [
+          {
+            "kind": "footer",
+            "bbox_pixel": [
+              0,
+              439,
+              427,
+              468
+            ],
+            "upscaled_2x_lines": [
+              {
+                "text": "400050 | Signature (Authorised Signatory):",
+                "confidence": 0.9697,
+                "bbox_pixel": [
+                  5.5,
+                  442.0,
+                  217.5,
+                  456.5
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "note": "Supplemental OCR evidence; review disagreements before replacing Docling text."
+  }
+}

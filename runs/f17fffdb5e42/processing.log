@@ -1,0 +1,19 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Page 1: scanned, 415 regions
+Saved /Users/vigneshv/development/pdf-layout-builder/runs/f17fffdb5e42/layout.pdf
+W1102 08:13:24.193000 12923 .venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/770 [00:00<?, ?it/s]Loading weights: 100%|██████████| 770/770 [00:00<00:00, 9468.40it/s]
+/Users/vigneshv/development/pdf-layout-builder/.venv/lib/python3.13/site-packages/torch/nn/modules/conv.py:560: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at /Users/runner/work/pytorch/pytorch/aten/src/ATen/native/Convolution.cpp:1136.)
+  return F.conv2d(
+[33m[WARNING] 2026-11-02 08:13:40,715 [RapidOCR] main.py:164: The text detection result is empty[0m
+RapidOCR returned empty result!
+Saved /Users/vigneshv/development/pdf-layout-builder/runs/f17fffdb5e42/extracted.json (Docling status: success)
+/Users/vigneshv/development/pdf-layout-builder/.venv/lib/python3.13/site-packages/torch/nn/modules/conv.py:560: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at /Users/runner/work/pytorch/pytorch/aten/src/ATen/native/Convolution.cpp:1136.)
+  return F.conv2d(
+Page 1: 149 OCR lines, 45 unmatched, 1 region passes
+Saved /Users/vigneshv/development/pdf-layout-builder/runs/f17fffdb5e42/enhanced.json
+W1102 08:13:55.241000 12931 .venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 15734.82it/s]
+Saved /Users/vigneshv/development/pdf-layout-builder/runs/f17fffdb5e42/classified.json (needs_review)
+Wrote viewer-data.js and viewer-page.jpg to /Users/vigneshv/development/pdf-layout-builder/runs/f17fffdb5e42
