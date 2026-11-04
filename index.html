@@ -11,6 +11,7 @@
     <header class="topbar">
       <div class="brand"><span class="brand-mark">▦</span><span>Layout<span class="brand-light">/review</span></span></div>
       <div class="document-name"><span class="status-dot"></span><span id="document-name">Policy schedule</span><span class="document-sub">· Page 1 of 1</span></div>
+      <a class="source-link upload-link" href="/">Upload another</a>
       <a id="source-pdf" class="source-link" href="policy_roi.pdf" target="_blank" rel="noopener">Open layered PDF <span aria-hidden="true">↗</span></a>
     </header>
 
@@ -19,12 +20,16 @@
         <div class="side-head"><p class="eyebrow">DOCUMENT INSPECTOR</p><h1>Review the extraction</h1><p>Explore detected layout regions and compare OCR evidence against the page.</p></div>
         <div class="classification-card"><div class="classification-top"><span class="eyebrow">DOCUMENT TYPE</span><span id="classification-badge" class="classification-badge pending">NOT RUN</span></div><div id="classification-title" class="classification-title">Not classified</div><div id="classification-score" class="classification-score">Run RoBERTa to analyze the extracted text.</div><div id="classification-options" class="classification-options"></div><p id="classification-note" class="classification-note">The document stays on this computer during classification.</p></div>
         <div class="side-section">
-          <div class="section-title"><h2>Layers</h2><span>4 sources</span></div>
+          <div class="section-title"><h2>Layers</h2><span>Layout + OCR</span></div>
           <label class="layer"><input id="layer-table" type="checkbox" checked><span class="swatch table"></span><span class="layer-name">Tables</span><span id="count-table" class="count">—</span></label>
           <label class="layer"><input id="layer-cell" type="checkbox" checked><span class="swatch cell"></span><span class="layer-name">Cells</span><span id="count-cell" class="count">—</span></label>
           <label class="layer"><input id="layer-text" type="checkbox"><span class="swatch text"></span><span class="layer-name">Text regions</span><span id="count-text" class="count">—</span></label>
+          <label class="layer"><input id="layer-drawing" type="checkbox"><span class="swatch drawing"></span><span class="layer-name">Drawings</span><span id="count-drawing" class="count">—</span></label>
           <label class="layer"><input id="layer-ocr" type="checkbox" checked><span class="swatch ocr"></span><span class="layer-name">RapidOCR lines</span><span id="count-ocr" class="count">—</span></label>
+          <label class="layer"><input id="show-unassigned" type="checkbox"><span class="swatch unassigned"></span><span class="layer-name">Unassigned OCR only</span></label>
         </div>
+        <div id="sections-panel" class="side-section" hidden><div class="section-title"><h2>Policy sections</h2><span id="sections-count"></span></div><div id="sections-list" class="sections-list"></div><p class="muted">Select a block to inspect its text and OCR evidence. Unknown blocks stay unassigned.</p></div>
+        <div id="evidence-panel" class="side-section" hidden><div class="section-title"><h2>Evidence review</h2><span id="evidence-count"></span></div><div id="evidence-list" class="evidence-list"></div></div>
         <div class="side-section search-section">
           <label class="search-label" for="search">Find extracted text</label>
           <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search OCR lines…" autocomplete="off"></div>
@@ -36,10 +41,10 @@
       <section class="canvas-area" aria-label="Document page">
         <div class="canvas-toolbar"><div><span class="page-icon">▤</span><strong id="toolbar-name">Policy schedule</strong><span class="toolbar-muted">Original page + overlays</span></div><div class="zoom-tools"><button id="zoom-out" aria-label="Zoom out">−</button><span id="zoom-label">100%</span><button id="zoom-in" aria-label="Zoom in">+</button><button id="fit" class="fit-button">Fit</button></div></div>
         <div id="viewport" class="viewport"><div id="page" class="page"><img src="viewer-page.jpg" alt="Scanned policy document page"><div id="overlays" class="overlays"></div></div></div>
-        <div class="canvas-footer"><span><span class="legend-box table"></span> Table <span class="legend-box cell"></span> Cell <span class="legend-box text"></span> Text <span class="legend-box ocr"></span> OCR</span><span id="visible-count">Loading…</span></div>
+        <div class="canvas-footer"><span><span class="legend-box table"></span> Table <span class="legend-box cell"></span> Cell <span class="legend-box text"></span> Text <span class="legend-box ocr"></span> OCR <span class="legend-box unassigned"></span> Unassigned</span><span id="visible-count">Loading…</span></div>
       </section>
 
-      <aside class="details"><div class="details-heading"><p class="eyebrow">SELECTION</p><h2 id="detail-title">Nothing selected</h2><p id="detail-subtitle">Click a region or search result to inspect its coordinates and extracted text.</p></div><div id="detail-body" class="detail-body"><div class="empty-illustration">⌖</div><p class="muted">Choose an overlay on the page.</p></div><div class="details-foot"><span>DATA SOURCES</span><a id="source-layout" href="policy_roi.page-001.json" target="_blank">Layout JSON ↗</a><a id="source-ocr" href="policy_data_enhanced.json" target="_blank">OCR JSON ↗</a></div></aside>
+      <aside class="details"><div class="details-heading"><p class="eyebrow">SELECTION</p><h2 id="detail-title">Nothing selected</h2><p id="detail-subtitle">Click a region or search result to inspect its coordinates and extracted text.</p></div><div id="detail-body" class="detail-body"><div class="empty-illustration">⌖</div><p class="muted">Choose an overlay on the page.</p></div><div class="details-foot"><span>DATA SOURCES</span><a id="source-layout" href="policy_roi.page-001.json" target="_blank">Layout JSON ↗</a><a id="source-ocr" href="policy_data_enhanced.json" target="_blank">OCR JSON ↗</a><a id="source-association" href="#" target="_blank" hidden>Association JSON ↗</a><a id="source-sections" href="#" target="_blank" hidden>Section JSON ↗</a><a id="source-evidence" href="#" target="_blank" hidden>Evidence manifest ↗</a><a id="source-roi-ocr" href="#" target="_blank" hidden>Grouped ROI OCR JSON ↗</a><a id="crop-gallery" href="#" target="_blank" hidden>Inspect ROI crops ↗</a></div></aside>
     </main>
   </div>
   <script src="viewer-data.js"></script>

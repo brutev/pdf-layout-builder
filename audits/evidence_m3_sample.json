@@ -1,0 +1,480 @@
+{
+  "schema": "pdf-layout-builder/evidence-manifest/v1",
+  "note": "Selected actual records from two real policy evidence manifests; all score values are retrieval ranking signals, not probabilities.",
+  "documents": {
+    "policy": [
+      {
+        "field": "policy_uin",
+        "question": "What is the UIN of the insurance policy?",
+        "data_type": "identifier",
+        "required": false,
+        "preferred_section": "Policy",
+        "preferred_sections": [
+          "Policy"
+        ],
+        "fallback_sections": [
+          "Unknown",
+          "*"
+        ],
+        "status": "candidates_found",
+        "candidates": [
+          {
+            "block_id": "block_0005",
+            "label_block_id": "block_0005",
+            "evidence_block_ids": [
+              "block_0005"
+            ],
+            "text": "Product Code: 3005 UIN:IRDAN115RP0007V01201819",
+            "section": "Policy",
+            "matched_alias": "uin",
+            "alias_method": "exact",
+            "associated_value": "IRDAN115RP0007V01201819",
+            "normalized_value": "IRDAN115RP0007V01201819",
+            "page": 1,
+            "bbox_pixel": [
+              469.15,
+              225.88,
+              1052.13,
+              253.84
+            ],
+            "source_region_ids": [
+              "1-404",
+              "1-406",
+              "1-405"
+            ],
+            "source_ocr_line_ids": [
+              "p001_ocr_0006"
+            ],
+            "parent_cell_ids": [],
+            "parent_table_ids": [],
+            "docling_refs": [
+              "#/texts/6"
+            ],
+            "native_pdf_refs": [],
+            "relationship": "same_block",
+            "temporal_role": "current_or_unspecified",
+            "score": 0.9997,
+            "score_components": {
+              "alias_match": 1.0,
+              "geometric_match": 1.0,
+              "section_match": 1.0,
+              "value_type": 1.0,
+              "ocr_confidence": 0.995,
+              "question_overlap": 1.0,
+              "previous_policy_penalty": 0.0
+            },
+            "fallback": false,
+            "rank": 1
+          },
+          {
+            "block_id": "block_0105",
+            "label_block_id": "block_0103",
+            "evidence_block_ids": [
+              "block_0103",
+              "block_0105"
+            ],
+            "text": "UIN Details\nIRDAN115A0017V01200910",
+            "section": "Policy",
+            "matched_alias": "uin",
+            "alias_method": "exact",
+            "associated_value": "IRDAN115A0017V01200910",
+            "normalized_value": "IRDAN115A0017V01200910",
+            "page": 1,
+            "bbox_pixel": [
+              140.43,
+              1319.77,
+              368.09,
+              1396.14
+            ],
+            "source_region_ids": [
+              "1-229",
+              "1-15",
+              "1-1",
+              "1-227",
+              "1-13"
+            ],
+            "source_ocr_line_ids": [
+              "p001_ocr_0116",
+              "p001_ocr_0118"
+            ],
+            "parent_cell_ids": [
+              "1-15",
+              "1-13"
+            ],
+            "parent_table_ids": [
+              "1-1"
+            ],
+            "docling_refs": [
+              "#/texts/48",
+              "#/texts/50"
+            ],
+            "native_pdf_refs": [],
+            "relationship": "same_column",
+            "temporal_role": "current_or_unspecified",
+            "score": 0.942,
+            "score_components": {
+              "alias_match": 1.0,
+              "geometric_match": 0.769,
+              "section_match": 1.0,
+              "value_type": 1.0,
+              "ocr_confidence": 0.996,
+              "question_overlap": 1.0,
+              "previous_policy_penalty": 0.0
+            },
+            "fallback": false,
+            "rank": 2
+          }
+        ],
+        "rejected_candidates": [],
+        "fallback_used": false,
+        "conflicting_values": true,
+        "candidate_count_before_limit": 2
+      },
+      {
+        "field": "engine_number",
+        "question": "What is the engine number of the vehicle?",
+        "data_type": "identifier",
+        "required": true,
+        "preferred_section": "Vehicle",
+        "preferred_sections": [
+          "Vehicle"
+        ],
+        "fallback_sections": [
+          "Unknown",
+          "*"
+        ],
+        "status": "candidates_found",
+        "candidates": [
+          {
+            "block_id": "block_0060",
+            "label_block_id": "block_0050",
+            "evidence_block_ids": [
+              "block_0050",
+              "block_0060"
+            ],
+            "text": "Engine Number\n17670",
+            "section": "Vehicle",
+            "matched_alias": "engine number",
+            "alias_method": "exact",
+            "associated_value": "17670",
+            "normalized_value": "17670",
+            "page": 1,
+            "bbox_pixel": [
+              1298.94,
+              836.82,
+              1441.49,
+              905.66
+            ],
+            "source_region_ids": [
+              "1-308",
+              "1-53",
+              "1-1",
+              "1-296",
+              "1-44"
+            ],
+            "source_ocr_line_ids": [
+              "p001_ocr_0057",
+              "p001_ocr_0067"
+            ],
+            "parent_cell_ids": [
+              "1-53",
+              "1-44"
+            ],
+            "parent_table_ids": [
+              "1-1"
+            ],
+            "docling_refs": [
+              "#/tables/0/data/table_cells/35",
+              "#/tables/0/data/table_cells/44"
+            ],
+            "native_pdf_refs": [],
+            "relationship": "same_column",
+            "temporal_role": "current_or_unspecified",
+            "score": 0.9546,
+            "score_components": {
+              "alias_match": 1.0,
+              "geometric_match": 0.819,
+              "section_match": 1.0,
+              "value_type": 1.0,
+              "ocr_confidence": 0.996,
+              "question_overlap": 1.0,
+              "previous_policy_penalty": 0.0
+            },
+            "fallback": false,
+            "rank": 1
+          }
+        ],
+        "rejected_candidates": [],
+        "fallback_used": false,
+        "conflicting_values": false,
+        "candidate_count_before_limit": 1
+      },
+      {
+        "field": "nominee_name",
+        "question": "What is the name of the nominee?",
+        "data_type": "name",
+        "required": false,
+        "preferred_section": "Nominee",
+        "preferred_sections": [
+          "Nominee"
+        ],
+        "fallback_sections": [
+          "Unknown",
+          "*"
+        ],
+        "status": "not_found",
+        "candidates": [],
+        "rejected_candidates": [],
+        "fallback_used": false,
+        "conflicting_values": false,
+        "candidate_count_before_limit": 0
+      }
+    ],
+    "small": [
+      {
+        "field": "policy_number",
+        "question": "What is the policy number?",
+        "data_type": "identifier",
+        "required": true,
+        "preferred_section": "Policy",
+        "preferred_sections": [
+          "Policy"
+        ],
+        "fallback_sections": [
+          "Unknown",
+          "*"
+        ],
+        "status": "candidates_found",
+        "candidates": [
+          {
+            "block_id": "block_0008",
+            "label_block_id": "block_0007",
+            "evidence_block_ids": [
+              "block_0007",
+              "block_0008"
+            ],
+            "text": "Polcy Mo\n211200512017m6158",
+            "section": "Policy",
+            "matched_alias": "polcy mo",
+            "alias_method": "exact",
+            "associated_value": "211200512017m6158",
+            "normalized_value": "211200512017M6158",
+            "page": 1,
+            "bbox_pixel": [
+              49.0,
+              180.0,
+              289.0,
+              201.0
+            ],
+            "source_region_ids": [
+              "1-246",
+              "1-245"
+            ],
+            "source_ocr_line_ids": [
+              "p001_ocr_0013",
+              "p001_ocr_0014"
+            ],
+            "parent_cell_ids": [],
+            "parent_table_ids": [],
+            "docling_refs": [
+              "#/texts/8",
+              "#/texts/9"
+            ],
+            "native_pdf_refs": [],
+            "relationship": "same_row",
+            "temporal_role": "current_or_unspecified",
+            "score": 0.9002,
+            "score_components": {
+              "alias_match": 1.0,
+              "geometric_match": 0.832,
+              "section_match": 1.0,
+              "value_type": 1.0,
+              "ocr_confidence": 0.704,
+              "question_overlap": 0.0,
+              "previous_policy_penalty": 0.0
+            },
+            "fallback": false,
+            "rank": 1
+          },
+          {
+            "block_id": "block_0009",
+            "label_block_id": "block_0005",
+            "evidence_block_ids": [
+              "block_0005",
+              "block_0009"
+            ],
+            "text": "Policy No\n91510100426930100",
+            "section": "Policy",
+            "matched_alias": "policy no.",
+            "alias_method": "exact",
+            "associated_value": "91510100426930100",
+            "normalized_value": "91510100426930100",
+            "page": 1,
+            "bbox_pixel": [
+              527.0,
+              121.0,
+              645.0,
+              200.0
+            ],
+            "source_region_ids": [
+              "1-253",
+              "1-242"
+            ],
+            "source_ocr_line_ids": [
+              "p001_ocr_0006",
+              "p001_ocr_0016"
+            ],
+            "parent_cell_ids": [],
+            "parent_table_ids": [],
+            "docling_refs": [
+              "#/texts/3",
+              "#/texts/15"
+            ],
+            "native_pdf_refs": [],
+            "relationship": "same_column",
+            "temporal_role": "previous",
+            "score": 0.4722,
+            "score_components": {
+              "alias_match": 1.0,
+              "geometric_match": 0.497,
+              "section_match": 1.0,
+              "value_type": 1.0,
+              "ocr_confidence": 0.802,
+              "question_overlap": 0.0,
+              "previous_policy_penalty": 0.35
+            },
+            "fallback": false,
+            "rank": 2
+          }
+        ],
+        "rejected_candidates": [],
+        "fallback_used": false,
+        "conflicting_values": true,
+        "candidate_count_before_limit": 2
+      },
+      {
+        "field": "chassis_number",
+        "question": "What is the chassis number of the vehicle?",
+        "data_type": "identifier",
+        "required": true,
+        "preferred_section": "Vehicle",
+        "preferred_sections": [
+          "Vehicle"
+        ],
+        "fallback_sections": [
+          "Unknown",
+          "*"
+        ],
+        "status": "candidates_found",
+        "candidates": [
+          {
+            "block_id": "block_0073",
+            "label_block_id": "block_0063",
+            "evidence_block_ids": [
+              "block_0063",
+              "block_0073"
+            ],
+            "text": "Chisss No\nMGA110018001806\n7ENZ",
+            "section": "Vehicle",
+            "matched_alias": "chisss no",
+            "alias_method": "exact",
+            "associated_value": "MGA110018001806\n7ENZ",
+            "normalized_value": "MGA1100180018067ENZ",
+            "page": 1,
+            "bbox_pixel": [
+              170.0,
+              628.0,
+              285.0,
+              703.0
+            ],
+            "source_region_ids": [
+              "1-111",
+              "1-112",
+              "1-94"
+            ],
+            "source_ocr_line_ids": [
+              "p001_ocr_0069",
+              "p001_ocr_0082",
+              "p001_ocr_0084"
+            ],
+            "parent_cell_ids": [],
+            "parent_table_ids": [],
+            "docling_refs": [
+              "#/texts/75",
+              "#/texts/76"
+            ],
+            "native_pdf_refs": [],
+            "relationship": "same_column",
+            "temporal_role": "current_or_unspecified",
+            "score": 0.8717,
+            "score_components": {
+              "alias_match": 1.0,
+              "geometric_match": 0.747,
+              "section_match": 1.0,
+              "value_type": 1.0,
+              "ocr_confidence": 0.584,
+              "question_overlap": 0.0,
+              "previous_policy_penalty": 0.0
+            },
+            "fallback": false,
+            "rank": 1
+          },
+          {
+            "block_id": "block_0069",
+            "label_block_id": "block_0063",
+            "evidence_block_ids": [
+              "block_0063",
+              "block_0069"
+            ],
+            "text": "Chisss No\n0085763",
+            "section": "Vehicle",
+            "matched_alias": "chisss no",
+            "alias_method": "exact",
+            "associated_value": "0085763",
+            "normalized_value": "0085763",
+            "page": 1,
+            "bbox_pixel": [
+              170.0,
+              628.0,
+              242.0,
+              674.0
+            ],
+            "source_region_ids": [
+              "1-111",
+              "1-112",
+              "1-103"
+            ],
+            "source_ocr_line_ids": [
+              "p001_ocr_0069",
+              "p001_ocr_0076"
+            ],
+            "parent_cell_ids": [],
+            "parent_table_ids": [],
+            "docling_refs": [
+              "#/texts/52"
+            ],
+            "native_pdf_refs": [],
+            "relationship": "same_column",
+            "temporal_role": "current_or_unspecified",
+            "score": 0.8239,
+            "score_components": {
+              "alias_match": 1.0,
+              "geometric_match": 0.556,
+              "section_match": 1.0,
+              "value_type": 1.0,
+              "ocr_confidence": 0.584,
+              "question_overlap": 0.0,
+              "previous_policy_penalty": 0.0
+            },
+            "fallback": false,
+            "rank": 2
+          }
+        ],
+        "rejected_candidates": [],
+        "fallback_used": false,
+        "conflicting_values": true,
+        "candidate_count_before_limit": 2
+      }
+    ]
+  }
+}

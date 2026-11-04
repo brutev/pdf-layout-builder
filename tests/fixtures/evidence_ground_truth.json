@@ -1,0 +1,608 @@
+{
+  "annotation_note": "Manual visual review of two real policy scans. Some printed values have no reliable OCR evidence; those fields are marked present with empty evidence_alternatives. Evaluation measures evidence ranking, not transcription accuracy.",
+  "documents": {
+    "policy": {
+      "source": "runs/f17fffdb5e42/source.jpg",
+      "fields": [
+        {
+          "field": "insurance_company_name",
+          "document_present": true,
+          "expected_normalized_value": "ICICI Lombard",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0004"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0005",
+                "p001_ocr_0007"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "irdai_registration_number",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "policy_type",
+          "document_present": true,
+          "expected_normalized_value": "Bundled two wheeler policy",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0003"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0004"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "policy_uin",
+          "document_present": true,
+          "expected_normalized_value": "IRDAN115RP0007V01201819",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0005"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0006"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "policy_number",
+          "document_present": true,
+          "expected_normalized_value": "3005/2011378249/00/0000003969",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0013"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0015"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "policy_issue_date",
+          "document_present": true,
+          "expected_normalized_value": "08/08/2021",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0029",
+                "block_0027"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0034",
+                "p001_ocr_0035"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "insured_person_name",
+          "document_present": true,
+          "expected_normalized_value": "VANSH OBEROI",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0028",
+                "block_0030"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0031",
+                "p001_ocr_0033"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "insured_person_address",
+          "document_present": true,
+          "expected_normalized_value": "Address printed in insured address row",
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "vehicle_make",
+          "document_present": true,
+          "expected_normalized_value": "HONDA",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0046",
+                "block_0054"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0048",
+                "p001_ocr_0060"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "vehicle_model",
+          "document_present": true,
+          "expected_normalized_value": "SP 125 DRUM",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0045",
+                "block_0058"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0049",
+                "p001_ocr_0061"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "vehicle_variant",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "engine_number",
+          "document_present": true,
+          "expected_normalized_value": "17670",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0050",
+                "block_0060"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0057",
+                "p001_ocr_0067"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "chassis_number",
+          "document_present": true,
+          "expected_normalized_value": "ME4JC832CMD045708",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0049",
+                "block_0053"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0056",
+                "p001_ocr_0066"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "registration_number",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "rto_location",
+          "document_present": true,
+          "expected_normalized_value": "DELHI-NEW DELHI",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0021",
+                "block_0020"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0023",
+                "p001_ocr_0024"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "hypothecation_company",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "total_idv",
+          "document_present": true,
+          "expected_normalized_value": "74462",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0068",
+                "block_0071"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0074",
+                "p001_ocr_0081"
+              ],
+              "page": 1
+            },
+            {
+              "block_ids": [
+                "block_0065",
+                "block_0070"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0068",
+                "p001_ocr_0075"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "net_premium",
+          "document_present": true,
+          "expected_normalized_value": "4322.00",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0095",
+                "block_0096"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0108",
+                "p001_ocr_0109"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "gross_premium",
+          "document_present": true,
+          "expected_normalized_value": "5100.00",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0102",
+                "block_0101"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0114",
+                "p001_ocr_0115"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "nominee_name",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "nominee_relationship",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        }
+      ]
+    },
+    "small": {
+      "source": "/Users/vigneshv/Downloads/images.jpeg",
+      "fields": [
+        {
+          "field": "insurance_company_name",
+          "document_present": true,
+          "expected_normalized_value": "The Oriental Insurance Company Limited",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0001"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0001"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "irdai_registration_number",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "policy_type",
+          "document_present": true,
+          "expected_normalized_value": "Private car package policy - Zone A",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0004"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0005"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "policy_uin",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "policy_number",
+          "document_present": true,
+          "expected_normalized_value": "211200512017m6158",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0007",
+                "block_0008"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0013",
+                "p001_ocr_0014"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": true
+        },
+        {
+          "field": "policy_issue_date",
+          "document_present": true,
+          "expected_normalized_value": "04/03/2017",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0103"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0118"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "insured_person_name",
+          "document_present": true,
+          "expected_normalized_value": "Insured name printed, OCR unreadable",
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "insured_person_address",
+          "document_present": true,
+          "expected_normalized_value": "Insured address printed, OCR fragmented",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0020"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0026"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "vehicle_make",
+          "document_present": true,
+          "expected_normalized_value": "FIAT",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0064",
+                "block_0067"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0070",
+                "p001_ocr_0077",
+                "p001_ocr_0083"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "vehicle_model",
+          "document_present": true,
+          "expected_normalized_value": "Punto Linea 1.3 Emotion (Diesel)",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0064",
+                "block_0067"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0070",
+                "p001_ocr_0077",
+                "p001_ocr_0083"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "vehicle_variant",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "engine_number",
+          "document_present": true,
+          "expected_normalized_value": "0085763",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0057",
+                "block_0069"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0068",
+                "p001_ocr_0076"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "chassis_number",
+          "document_present": true,
+          "expected_normalized_value": "MGA1100180018067ENZ",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0063",
+                "block_0073"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0069",
+                "p001_ocr_0082",
+                "p001_ocr_0084"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "registration_number",
+          "document_present": true,
+          "expected_normalized_value": "MH 02 BC 5033",
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "rto_location",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "hypothecation_company",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "total_idv",
+          "document_present": true,
+          "expected_normalized_value": "332072",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0092",
+                "block_0098"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0107",
+                "p001_ocr_0114"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "net_premium",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "gross_premium",
+          "document_present": true,
+          "expected_normalized_value": "5055",
+          "evidence_alternatives": [
+            {
+              "block_ids": [
+                "block_0051",
+                "block_0045"
+              ],
+              "ocr_line_ids": [
+                "p001_ocr_0054",
+                "p001_ocr_0055"
+              ],
+              "page": 1
+            }
+          ],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "nominee_name",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        },
+        {
+          "field": "nominee_relationship",
+          "document_present": false,
+          "expected_normalized_value": null,
+          "evidence_alternatives": [],
+          "conflicting_values_present": false
+        }
+      ]
+    }
+  }
+}

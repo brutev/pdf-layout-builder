@@ -22,6 +22,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent
 RUNS = ROOT / "runs"
 MAX_UPLOAD_BYTES = 20 * 1024 * 1024
+LAYOUT_DPI = 200
 ALLOWED_UPLOADS = {"image/jpeg": ".jpg", "image/png": ".png"}
 ROOT_ASSETS = {
     "/": "app-index.html",
@@ -39,7 +40,8 @@ ROOT_ASSETS = {
 REVIEW_ASSETS = {
     "index.html", "viewer.css", "viewer.js", "viewer-data.js", "viewer-page.jpg",
     "layout.pdf", "layout.page-001.json", "extracted.json", "enhanced.json",
-    "classified.json",
+    "classified.json", "roi_ocr.json", "section_classified.json", "evidence_manifest.json",
+    "associated.json",
 }
 JOBS: dict[str, dict] = {}
 JOBS_LOCK = threading.Lock()
@@ -67,9 +69,24 @@ def process_job(job_id: str, source: Path) -> None:
     log = folder / "processing.log"
     with PROCESS_LOCK:
         try:
-            run_step(job_id, "Detecting layout", [str(ROOT / "draw_layers.py"), "--input", str(source), "--output", str(folder / "layout.pdf")], log)
+            run_step(job_id, "Detecting layout", [str(ROOT / "draw_layers.py"), "--input", str(source), "--output", str(folder / "layout.pdf"), "--dpi", str(LAYOUT_DPI)], log)
             run_step(job_id, "Extracting text", [str(ROOT / "extract_data.py"), "--input", str(source), "--output", str(folder / "extracted.json")], log)
-            run_step(job_id, "Reading OCR lines", [str(ROOT / "enhance_rapidocr.py"), "--input", str(source), "--json", str(folder / "extracted.json"), "--output", str(folder / "enhanced.json"), "--no-table-cells"], log)
+            run_step(job_id, "Reading OCR lines", [str(ROOT / "enhance_rapidocr.py"), "--input", str(source), "--json", str(folder / "extracted.json"), "--output", str(folder / "enhanced.json"), "--no-table-cells", "--layout", str(folder / "layout.page-001.json"), "--dpi", str(LAYOUT_DPI), "--no-layout-roi-ocr"], log)
+            run_step(job_id, "Associating OCR with layout", [
+                str(ROOT / "associate_ocr_layout.py"), "--ocr", str(folder / "enhanced.json"),
+                "--layout", str(folder / "layout.page-001.json"), "--source", str(source),
+                "--output", str(folder / "associated.json"),
+            ], log)
+            run_step(job_id, "Classifying sections", [
+                str(ROOT / "classify_sections.py"), "--input", str(folder / "associated.json"),
+                "--config", str(ROOT / "insurance_policy_questions.yaml"),
+                "--output", str(folder / "section_classified.json"),
+            ], log)
+            run_step(job_id, "Retrieving question evidence", [
+                str(ROOT / "retrieve_evidence.py"), "--input", str(folder / "section_classified.json"),
+                "--config", str(ROOT / "insurance_policy_questions.yaml"),
+                "--output", str(folder / "evidence_manifest.json"),
+            ], log)
 
             set_job(job_id, stage="Classifying document")
             with log.open("a", encoding="utf-8") as stream:
@@ -92,6 +109,9 @@ def process_job(job_id: str, source: Path) -> None:
                 "--pdf", str(folder / "layout.pdf"),
                 "--layout", str(folder / "layout.page-001.json"),
                 "--ocr", str(folder / "classified.json"),
+                "--association", str(folder / "associated.json"),
+                "--sections", str(folder / "section_classified.json"),
+                "--evidence", str(folder / "evidence_manifest.json"),
                 "--output-dir", str(folder), "--title", "Uploaded document",
             ], log)
             for asset in ("index.html", "viewer.css", "viewer.js"):
@@ -138,6 +158,12 @@ class Handler(BaseHTTPRequestHandler):
             return
         if route.startswith("/reviews/"):
             parts = route.strip("/").split("/")
+            if (len(parts) == 4 and re.fullmatch(r"[0-9a-f]{12}", parts[1]) and
+                    parts[2] == "roi-crops" and
+                    (parts[3] == "index.html" or
+                     re.fullmatch(r"page-\d{3}\.group_\d{4}\.png", parts[3]))):
+                self.serve_file(RUNS / parts[1] / parts[2] / parts[3])
+                return
             if len(parts) != 3 or not re.fullmatch(r"[0-9a-f]{12}", parts[1]) or parts[2] not in REVIEW_ASSETS:
                 self.send_error(HTTPStatus.NOT_FOUND)
                 return

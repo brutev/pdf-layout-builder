@@ -24,7 +24,8 @@ After updating the sample PDF or JSON files, rebuild the browser snapshot:
   --image /path/to/image.jpeg \
   --pdf new_policy_roi.pdf \
   --layout new_policy_roi.page-001.json \
-  --ocr new_policy_data_enhanced.json \
+  --ocr new_policy_classified.json \
+  --ocr-source new_policy_data_enhanced.json \
   --title "Uploaded policy image"
 ```
 
@@ -43,6 +44,7 @@ The optional classifier reads the first 100 words of first-page extracted text f
   --pdf new_policy_roi.pdf \
   --layout new_policy_roi.page-001.json \
   --ocr new_policy_classified.json \
+  --ocr-source new_policy_data_enhanced.json \
   --title "Uploaded policy image"
 ```
 
@@ -69,7 +71,7 @@ You can also use a JPEG, PNG, or TIFF directly:
 
 Options: `--dpi` (default 200), `--min-cell-area` (minimum scanned cell area in pixels, default 400), and `--debug` (save intermediate scanned-page images beside the output).
 
-Each page gets a JSON file named like `policy_roi.page-001.json`. Every region has a unique `id`, a `type` (`text`, `table`, `cell`, or `drawing`), and `bbox_pdf`, `bbox_pixel`, and `bbox_normalized` coordinates. PDF coordinates are points in PyMuPDF's unrotated page space; pixel and normalized coordinates follow the displayed page orientation at the requested DPI. `bbox` is an alias for `bbox_pixel`.
+Each page gets a JSON file named like `policy_roi.page-001.json`. Every region has a unique `id`, a `type` (`text`, `table`, `cell`, or `drawing`), and `bbox_pdf`, `bbox_pixel`, and `bbox_normalized` coordinates. The sidecar also records the actual rendered pixel dimensions, DPI, page rotation, and source SHA-256 for coordinate validation. PDF coordinates are points in PyMuPDF's unrotated page space; pixel and normalized coordinates follow the displayed page orientation at the requested DPI. `bbox` is an alias for `bbox_pixel`.
 
 Pages with selectable words use PyMuPDF text blocks, table detection, and vector drawing bounds. Other pages use OpenCV morphology to find ruled grids and nearby text. Scanned pages are deskewed for detection, then boxes are mapped back onto the original page. Detection is approximate for borderless tables, photos, glare, and watermarks. The PDF content is preserved, and the `Layout ROIs` layer can be toggled in a compatible viewer.
 
@@ -100,3 +102,60 @@ RapidOCR can make a second, independent pass on the whole page, the footer and e
 ```
 
 Use `--roi 1:190,338,460,363` to add a close-up of the obscured address (coordinates are pixels at the selected DPI for PDFs, and image pixels for JPEGs). Use `--no-table-cells` for a faster page and footer pass. The default Torch backend uses RapidOCR's bundled models; `--backend onnxruntime` is available if that runtime is installed. OCR can recover text missed by Docling, but watermark overlap may still require a person to verify the original.
+
+## Layout-driven ROI OCR
+
+Generate fresh sidecars and pass the first page JSON (or its directory) to RapidOCR:
+
+```sh
+.venv/bin/python draw_layers.py --input document.jpeg --output layout.pdf --dpi 200
+.venv/bin/python extract_data.py --input document.jpeg --output extracted.json
+.venv/bin/python enhance_rapidocr.py \
+  --input document.jpeg --json extracted.json --output enhanced.json \
+  --layout layout.page-001.json --dpi 200 --no-table-cells \
+  --roi-output roi_ocr.json --crop-dir roi-crops
+```
+
+The ROI path renders the source through PyMuPDF exactly as the detector does. It rejects sidecars with mismatched source hash, DPI, page count, rotation, or pixel dimensions. Older sidecars without this metadata must be regenerated. Nearby text fragments are grouped into line and short column blocks; tables use nonoverlapping cell crops when cells are usable, otherwise one table crop. Very small crops are retained as skipped records. The `layout_roi_ocr` object is also kept in `enhanced.json`. Each result records the group ID, original detector IDs, crop box and dimensions, mapped page-coordinate OCR lines, status, and page statistics. `roi-crops/index.html` provides a visual gallery of every attempted crop.
+
+Full-page RapidOCR remains enabled by default. The local app uses `--no-layout-roi-ocr` so crop OCR does not run during normal review. Run the command above without that flag when a difficult area needs recovery. Existing footer, custom `--roi`, and Docling table-cell passes still work.
+
+## Associate full-page OCR with layout
+
+Use the same source and DPI for layout detection and full-page OCR:
+
+```sh
+.venv/bin/python enhance_rapidocr.py \
+  --input document.jpeg --json extracted.json --output enhanced.json \
+  --layout layout.page-001.json --dpi 200 --no-table-cells --no-layout-roi-ocr
+.venv/bin/python associate_ocr_layout.py \
+  --ocr enhanced.json --layout layout.page-001.json \
+  --source document.jpeg --output associated.json
+.venv/bin/python build_viewer_data.py \
+  --image document.jpeg --pdf layout.pdf --layout layout.page-001.json \
+  --ocr enhanced.json --association associated.json
+```
+
+`associated.json` contains one record for each original full-page OCR line, scored region candidates, a primary region or an unassigned reason, matched text fragments, table/cell ancestors, and structured text blocks. Docling text, Docling table cells, and native PDF words are linked as separate source evidence. Each OCR line appears once in reconstructed block text. The association stage uses saved boxes and OCR output; it does not invoke RapidOCR. In the viewer, click a region to highlight its OCR lines, or click an OCR line to inspect candidate scores and its region hierarchy. The normal upload flow generates this file automatically.
+
+### Section classification
+
+The upload flow also reads `insurance_policy_questions.yaml` and writes `section_classified.json` from the structured blocks in `associated.json`. It combines heading and field aliases, nearby layout context, and the cached NLI RoBERTa model. Unclear blocks remain unknown or ambiguous. NLI scores are evidence, not calibrated probabilities. The review sidebar lists classified blocks and highlights their source OCR lines when selected.
+
+Run this stage separately with:
+
+```sh
+.venv/bin/python classify_sections.py --input associated.json --output section_classified.json
+```
+
+Use `--no-model` for a deterministic structural and keyword fallback. The model is loaded from the local cache unless `--allow-model-download` is explicitly supplied. To evaluate manually reviewed examples from two policy layouts, run `evaluate_sections.py --policy POLICY_SECTION_JSON --small SMALL_SECTION_JSON --output evaluation.json`.
+
+### Question-directed evidence retrieval
+
+The upload flow now reads the 21 field definitions in `insurance_policy_questions.yaml` and writes `evidence_manifest.json` after section classification. Each field has aliases, a value type, preferred and fallback sections, a candidate limit, normalization rules, and required status. The retriever searches all classified blocks so an incorrect section label cannot hide evidence. It ranks exact/fuzzy labels, same-row and same-column values, table relationships, OCR confidence, and section context, then retains competing values and source IDs. It does not answer the questions or invoke Qwen.
+
+```sh
+.venv/bin/python retrieve_evidence.py --input section_classified.json --output evidence_manifest.json
+```
+
+The default is lightweight and does not load a model. `--semantic-rerank` optionally adds a small, separately reported NLI RoBERTa relevance signal to the shortlist when the cached model is available. The review sidebar displays each question, candidate and rejected evidence, score, and fallback status; selecting a candidate highlights its source OCR lines on page 1. Evaluate saved manifests with `evaluate_evidence.py --policy POLICY_MANIFEST --small SMALL_MANIFEST --output evaluation.json`.

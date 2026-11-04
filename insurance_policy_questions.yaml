@@ -1,0 +1,413 @@
+document_type: insurance_policy
+sections:
+- name: Insurer
+  fields:
+  - field: insurance_company_name
+    question: What is the name of the insurance company?
+    aliases:
+    - insurance company
+    - insurer name
+    - name of insurer
+    - motor insurance
+    - oriental insurance company
+    data_type: name
+    preferred_sections:
+    - Insurer
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: true
+    value_strategy: full_block_if_no_colon
+    exclude_aliases:
+    - insured name
+    - certificate cum policy schedule
+    value_cues:
+    - company
+    - limited
+    - lombard
+  - field: irdai_registration_number
+    question: What is the IRDAI Registration Number of the insurance company?
+    aliases:
+    - irdai registration number
+    - irdai reg no
+    - irdai registration
+    - registration no of insurer
+    data_type: identifier
+    preferred_sections:
+    - Insurer
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    - uppercase
+    - remove_spaces
+    required: false
+    required_context_terms:
+    - irdai
+- name: Policy
+  fields:
+  - field: policy_type
+    question: What is the type of insurance policy?
+    aliases:
+    - policy type
+    - type of policy
+    - package policy
+    - bundled policy
+    - private car package policy
+    - two wheeler policy
+    data_type: text
+    preferred_sections:
+    - Policy
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: true
+    value_strategy: full_block_if_no_colon
+  - field: policy_uin
+    question: What is the UIN of the insurance policy?
+    aliases:
+    - policy uin
+    - uin
+    data_type: identifier
+    preferred_sections:
+    - Policy
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    - uppercase
+    - remove_spaces
+    required: false
+  - field: policy_number
+    question: What is the policy number?
+    aliases:
+    - policy number
+    - policy no
+    - policy no.
+    - certificate cum policy no
+    - polcy mo
+    data_type: identifier
+    preferred_sections:
+    - Policy
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    - uppercase
+    - remove_spaces
+    required: true
+  - field: policy_issue_date
+    question: What is the date of issue of policy?
+    aliases:
+    - policy issue date
+    - policy issued on
+    - date of issue
+    - issue date
+    - date of policy
+    data_type: date
+    preferred_sections:
+    - Policy
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: true
+- name: Insured
+  fields:
+  - field: insured_person_name
+    question: What is the name of the insured person?
+    aliases:
+    - insured name
+    - name of insured
+    - insured person name
+    - name of the insured
+    data_type: name
+    preferred_sections:
+    - Insured
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: true
+  - field: insured_person_address
+    question: What is the address of the insured person?
+    aliases:
+    - insured address
+    - address of insured
+    - address of the insured
+    data_type: address
+    preferred_sections:
+    - Insured
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: true
+- name: Vehicle
+  fields:
+  - field: vehicle_make
+    question: What is the make of the vehicle?
+    aliases:
+    - vehicle make
+    - make
+    - make of vehicle
+    - make - model
+    data_type: text
+    preferred_sections:
+    - Vehicle
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: true
+  - field: vehicle_model
+    question: What is the model of the vehicle?
+    aliases:
+    - vehicle model
+    - model
+    - make - model
+    data_type: text
+    preferred_sections:
+    - Vehicle
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: true
+  - field: vehicle_variant
+    question: What is the variant of the model of the vehicle?
+    aliases:
+    - variant
+    - vehicle variant
+    - model variant
+    data_type: text
+    preferred_sections:
+    - Vehicle
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: false
+  - field: engine_number
+    question: What is the engine number of the vehicle?
+    aliases:
+    - engine number
+    - engine no
+    - engine no.
+    - englne no
+    data_type: identifier
+    preferred_sections:
+    - Vehicle
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    - uppercase
+    - remove_spaces
+    required: true
+  - field: chassis_number
+    question: What is the chassis number of the vehicle?
+    aliases:
+    - chassis number
+    - chassis no
+    - chassis no.
+    - chisss no
+    data_type: identifier
+    preferred_sections:
+    - Vehicle
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    - uppercase
+    - remove_spaces
+    required: true
+  - field: registration_number
+    question: What is the registration number of the vehicle?
+    aliases:
+    - registration number
+    - registration no
+    - registration mark
+    - registration mars
+    data_type: identifier
+    preferred_sections:
+    - Vehicle
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    - uppercase
+    - remove_spaces
+    required: true
+  - field: rto_location
+    question: What is the RTO location of the vehicle?
+    aliases:
+    - rto location
+    - rto
+    - registering authority
+    data_type: text
+    preferred_sections:
+    - Vehicle
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: false
+  - field: hypothecation_company
+    question: What is the hypothecation company name?
+    aliases:
+    - hypothecation company
+    - hypothecated with
+    - hypethedated with
+    - financier
+    data_type: name
+    preferred_sections:
+    - Vehicle
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: false
+- name: Premium / IDV
+  fields:
+  - field: total_idv
+    question: What is the total IDV of the vehicle?
+    aliases:
+    - total idv
+    - vehicle idv
+    - insured declared value
+    - insured s declared value
+    - total value
+    - total yate
+    data_type: amount
+    preferred_sections:
+    - Premium / IDV
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: true
+  - field: net_premium
+    question: What is the net premium to be paid?
+    aliases:
+    - net premium
+    - net premium payable
+    data_type: amount
+    preferred_sections:
+    - Premium / IDV
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: true
+  - field: gross_premium
+    question: What is the gross premium to be paid?
+    aliases:
+    - gross premium
+    - omoss premium
+    - total premium
+    - premium payable
+    data_type: amount
+    preferred_sections:
+    - Premium / IDV
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: true
+- name: Nominee
+  fields:
+  - field: nominee_name
+    question: What is the name of the nominee?
+    aliases:
+    - nominee name
+    - name of nominee
+    - nominee
+    data_type: name
+    preferred_sections:
+    - Nominee
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: false
+  - field: nominee_relationship
+    question: What is the relationship of the nominee with the insured person?
+    aliases:
+    - nominee relationship
+    - relationship with insured
+    - relationship to insured
+    - relation with nominee
+    data_type: text
+    preferred_sections:
+    - Nominee
+    fallback_sections:
+    - Unknown
+    - '*'
+    max_candidates: 3
+    normalization:
+    - trim
+    - collapse_whitespace
+    required: false
